@@ -1,0 +1,11 @@
+color:
+  variable:
+    Nuclear: f8494b
+    Oil: f9d6ac
+    Coal: 96a4b4
+    Lignite: b49b9a
+    Hydro: 91cec7
+    Wind: 9bdade
+    Solar PV: ffde65
+    Fossil Gas: e9bb60
+    Biomass: bcc46b
