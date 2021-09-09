@@ -1,4 +1,4 @@
-# Nomenclature and style guides for the *netzero2040* project
+# Nomenclature & style guides for the *netzero2040* project
 
 © 2021 NetZero2040 consortium; licensed under the [MIT License](LICENSE).
 
