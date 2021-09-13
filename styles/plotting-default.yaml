@@ -1,14 +1,14 @@
 color:
   variable:
-    Nuclear: ca3636
-    Oil: cbae9f
-    Coal: 383e42
-    Lignite: 96746c
-    Hydro: 7883ba
-    Wind: 80bac8
-    Solar PV: fcce52
-    Fossil Gas: c89d37
-    Biomass: aabb61
-    Waste: 5e6e3b
-    Geothermal: e26e0e
-    Coal Gas: 7f868a
+    Nuclear: "#ca3636"
+    Oil: "#cbae9f"
+    Coal: "#383e42"
+    Lignite: "#96746c"
+    Hydro: "#7883ba"
+    Wind: "#80bac8"
+    Solar PV: "#fcce52"
+    Fossil Gas: "#c89d37"
+    Biomass: "#aabb61"
+    Waste: "#5e6e3b"
+    Geothermal: "#e26e0e"
+    Coal Gas: "#7f868a"
