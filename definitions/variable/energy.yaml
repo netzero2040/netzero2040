@@ -1,0 +1,3 @@
+- Secondary Energy|Electricity:
+    description: Total net electricity production (including transmission losses)
+    unit: GWh/yr
