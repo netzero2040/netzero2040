@@ -43,3 +43,4 @@ projects at the global and national level, including several Horizon 2020 projec
 The **netzero2040** project was funded by the Klimafonds  
 as part of the 13th *Austrian Climate Research Programme (ACRP)*.  
 Grant number KR20AC0K18182.
+
