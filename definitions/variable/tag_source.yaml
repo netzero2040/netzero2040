@@ -1,26 +1,26 @@
 - Source:
     - Coal:
-        description: anthracite, coking coal, lignite, peat
+        description: Anthracite, coking coal, lignite, peat
     - Oil:
-        description: oil products refined from crude oil e.g. gasoline, diesel, gas oil, fuel oil
+        description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil, fuel oil
     - Gas:
-        description: natural gas,
+        description: Natural gas,
     - Coal Gas:
-        description: coal gases
+        description: Coal gases
     - Biogas:
-        description: gas from biogenic sources
+        description: Gas from biogenic sources
     - Biomass:
-        description: liquid or solid biomass
+        description: Liquid or solid biomass
     - Hydro:
-        description: water
+        description: Water
     - Geothermal:
-        description: heat stored in ground
+        description: Geothermal energy
     - Electricity:
-        description: electric energy
+        description: Electric energy
     - Solar:
-        description: energy from the sun
+        description: Solar energy
     - Wind:
-        description: energy contained in moving air
+        description: Energy contained in moving air
     - Hydrogen:
         description: Hydrogen
     - Synfuel:
