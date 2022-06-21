@@ -1,5 +1,6 @@
 # Nomenclature & style guides for the *netzero2040* project
 
+
 © 2021 NetZero2040 consortium; licensed under the [MIT License](LICENSE).
 
 [![license](https://img.shields.io/github/license/NetZero2040/NetZero2040)](https://github.com/NetZero2040/NetZero2040/blob/main/LICENSE)
@@ -43,3 +44,4 @@ projects at the global and national level, including several Horizon 2020 projec
 The **netzero2040** project was funded by the Klimafonds  
 as part of the 13th *Austrian Climate Research Programme (ACRP)*.  
 Grant number KR20AC0K18182.
+
