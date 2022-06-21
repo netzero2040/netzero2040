@@ -1,13 +1,13 @@
 - Plant:
-    - PP:
+    - Power Plant:
         description: Power plant
-    - HP:
+    - Heat Plant:
         description: Heat plant
     - CHP:
         description: Combined heat and power plant
-    - Ror:
+    - Run-of-river Plant:
         description: Run-of-river hydro power plant
-    - Reservoir:
+    - Reservoir Storage:
         description: Hydro reservoir storage
     - Storage:
         description: Energy storage plant. Includes pumped storage, batteries, etc.
