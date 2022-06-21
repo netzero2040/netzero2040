@@ -1,0 +1,9 @@
+- Product:
+    - Electricity:
+        description: electricity
+    - Heat:
+        description: district heat
+    - Hydrogen:
+        description: hydrogen
+    - Synfuel:
+        description: synthetic fuel

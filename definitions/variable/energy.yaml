@@ -1,3 +1,39 @@
-- Secondary Energy|Electricity:
-    description: Total net electricity production (including transmission losses)
-    unit: GWh/yr
+- Primary Energy|{Source}:
+    description: Primary energy input of {Source}
+    unit: GWh
+
+- Primary Energy|{Source}|{Product}:
+    description: Primary energy input of {Source} converted to {Product}
+    unit: GWh
+
+- Secondary Energy|{Product}:
+    description: Total net production of {Product} (including transmission losses)
+    unit: GWh
+
+- Final Energy|{Product}:
+    description: Final energy consumption of {Final Product}, excluding transmission / distribution losses
+    unit: GWh
+
+- Transformation Input:
+    description: input used in energy transformation
+    unit: GWh
+
+- Transformation Input|{Plant}:
+    description: input used in energy transformation by {Plant}
+    unit: GWh
+
+- Transformation Input|{Plant}|{Source}:
+    description: input of {Source} used in energy transformation by {Plant}
+    unit: GWh
+
+- Transformation Output:
+    description: output from energy transformation
+    unit: GWh
+
+- Transformation Output|{Plant}:
+    description: output of {Product} from energy transformation by {Plant}
+    unit: GWh
+
+- Transformation Output|{Plant}|{Product}:
+    description: output of {Product} from energy transformation by {Plant}
+    unit: GWh
