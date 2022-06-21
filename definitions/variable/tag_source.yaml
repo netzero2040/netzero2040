@@ -20,7 +20,7 @@
     - Solar:
         description: Solar energy
     - Wind:
-        description: Energy contained in moving air
+        description: Wind
     - Hydrogen:
         description: Hydrogen
     - Synfuel:
