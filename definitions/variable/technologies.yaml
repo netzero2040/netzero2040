@@ -1,9 +1,3 @@
 - Capacity|{Source}:
     description: Total installed capacity to generate energy from {Source}
     unit: [MW, GW]
-- Capacity|{Source}|{Plant}:
-    description: Total installed capacity to use {Source} in {Plant}
-    unit: [MW, GW]
-- Capacity|{Source}|{Plant}|{Product}:
-    description: Total installed capacity to produce {Product} from {Source} using {Plant}
-    unit: [MW, GW]
