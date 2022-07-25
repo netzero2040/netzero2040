@@ -1,5 +1,5 @@
 import pyam
-from nomenclature import DataStructureDefinition, process
+from nomenclature import DataStructureDefinition
 from pathlib import Path
 
 here = Path(__file__).absolute().parent
