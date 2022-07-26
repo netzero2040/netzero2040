@@ -3,7 +3,7 @@
         description: Power plant
     - Heat Plant:
         description: Heat plant
-    - CHP:
+    - Combined Heat And Power Plant:
         description: Combined heat and power plant
     - Run-of-river Plant:
         description: Run-of-river hydro power plant
