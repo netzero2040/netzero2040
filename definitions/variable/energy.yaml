@@ -1,30 +1,30 @@
 - Primary Energy|{Source}:
     description: Primary energy input of {Source}
-    unit: [TJ, GWh]
+    unit: [TJ]
 - Primary Energy|{Source}|{Product}:
     description: Primary energy input of {Source} converted to {Product}
-    unit: [TJ, GWh]
+    unit: [TJ]
 - Secondary Energy|{Product}:
     description: Total net production of {Product} (including transmission losses)
-    unit: [TJ, GWh]
+    unit: [TJ]
 - Final Energy|{Product}:
     description: Final energy consumption of {Final Product}, excluding transmission / distribution losses
-    unit: [TJ, GWh]
+    unit: [TJ]
 - Transformation Input:
     description: input used in energy transformation
-    unit: [TJ, GWh]
+    unit: [TJ]
 - Transformation Input|{Plant}:
     description: input used in energy transformation by {Plant}
-    unit: [TJ, GWh]
+    unit: [TJ]
 - Transformation Input|{Plant}|{Source}:
     description: input of {Source} used in energy transformation by {Plant}
-    unit: [TJ, GWh]
+    unit: [TJ]
 - Transformation Output:
     description: output from energy transformation
-    unit: [TJ, GWh]
+    unit: [TJ]
 - Transformation Output|{Plant}:
     description: output of {Product} from energy transformation by {Plant}
-    unit: [TJ, GWh]
+    unit: [TJ]
 - Transformation Output|{Plant}|{Product}:
     description: output of {Product} from energy transformation by {Plant}
-    unit: [TJ, GWh]
+    unit: [TJ]
