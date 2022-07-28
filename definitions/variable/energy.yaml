@@ -1,9 +1,14 @@
 - Primary Energy|{Primary Energy Carrier}:
     description: Primary energy consumption of {Primary Energy Carrier}
     unit: TJ
-- Secondary Energy|{Product}:
-    description: Total net production of {Product} (including transmission losses)
-    unit: [TJ]
+- Secondary Energy|Electricity|{Electricity Input}:
+    description: Total net generation of electricity from {Electricity Input}
+      (including transmission losses)
+    unit: TJ
+- Conversion Input|Electricity|{Electricity Input}:
+    description: Consumption of {Electricity Input} for electricity generation
+      (including transmission losses)
+    unit: TJ
 - Final Energy|{Final Energy Carrier}:
     description: Final consumption of {Final Energy Carrier}
       (excluding transmission/distribution losses)
@@ -16,22 +21,3 @@
     description: Final consumption of {Final Energy Carrier} by {Sector}
       (excluding transmission/distribution losses)
     unit: TJ
-
-- Transformation Input:
-    description: input used in energy transformation
-    unit: [TJ]
-- Transformation Input|{Plant}:
-    description: input used in energy transformation by {Plant}
-    unit: [TJ]
-- Transformation Input|{Plant}|{Source}:
-    description: input of {Source} used in energy transformation by {Plant}
-    unit: [TJ]
-- Transformation Output:
-    description: output from energy transformation
-    unit: [TJ]
-- Transformation Output|{Plant}:
-    description: output of {Product} from energy transformation by {Plant}
-    unit: [TJ]
-- Transformation Output|{Plant}|{Product}:
-    description: output of {Product} from energy transformation by {Plant}
-    unit: [TJ]
