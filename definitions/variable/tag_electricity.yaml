@@ -1,0 +1,27 @@
+- Electricity Input:
+    - Coal:
+        description: Anthracite, coking coal, lignite, peat
+    - Crude Oil:
+        description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil, fuel oil
+    - Natural Gas:
+        description: Natural gas
+    - Coal Gas:
+        description: Coal gases
+    - Hydrogen:
+        description: Hydrogen
+    - Biogas:
+        description: Gas from biogenic sources
+    - Biomass:
+        description: Liquid or solid biomass
+    - Hydro:
+        description: Hydropower
+    - Hydro|Run of River:
+        description: Run-of-river hydropower
+    - Hydro|Reservoir:
+        description: Reservoir-storage hydropower
+    - Solar:
+        description: Solar energy
+    - Wind:
+        description: Wind
+    - Geothermal:
+        description: Geothermal energy

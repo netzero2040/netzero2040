@@ -1,3 +1,23 @@
-- Secondary Energy|Electricity:
-    description: Total net electricity production (including transmission losses)
-    unit: GWh/yr
+- Primary Energy|{Primary Energy Carrier}:
+    description: Primary energy consumption of {Primary Energy Carrier}
+    unit: TJ
+- Secondary Energy|Electricity|{Electricity Input}:
+    description: Total net generation of electricity from {Electricity Input}
+      (including transmission losses)
+    unit: TJ
+- Conversion Input|Electricity|{Electricity Input}:
+    description: Consumption of {Electricity Input} for electricity generation
+      (including transmission losses)
+    unit: TJ
+- Final Energy|{Final Energy Carrier}:
+    description: Final consumption of {Final Energy Carrier}
+      (excluding transmission/distribution losses)
+    unit: TJ
+- Final Energy|{Sector}:
+    description: Final consumption by {Sector}
+      (excluding transmission/distribution losses)
+    unit: TJ
+- Final Energy|{Sector}|{Final Energy Carrier}:
+    description: Final consumption of {Final Energy Carrier} by {Sector}
+      (excluding transmission/distribution losses)
+    unit: TJ
