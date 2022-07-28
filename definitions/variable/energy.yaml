@@ -1,15 +1,13 @@
-- Primary Energy|{Source}:
-    description: Primary energy input of {Source}
-    unit: [TJ]
-- Primary Energy|{Source}|{Product}:
-    description: Primary energy input of {Source} converted to {Product}
-    unit: [TJ]
+- Primary Energy|{Primary Energy Carrier}:
+    description: Primary energy consumption of {Primary Energy Carrier}
+    unit: TJ
 - Secondary Energy|{Product}:
     description: Total net production of {Product} (including transmission losses)
     unit: [TJ]
 - Final Energy|{Product}:
     description: Final energy consumption of {Final Product}, excluding transmission / distribution losses
     unit: [TJ]
+
 - Transformation Input:
     description: input used in energy transformation
     unit: [TJ]
