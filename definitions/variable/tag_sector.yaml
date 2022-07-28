@@ -1,0 +1,15 @@
+- Sector:
+    - Households:
+        description: Households
+    - Services:
+        description: Service sector
+    - Industry:
+        description: Industrial activities
+    - Transport:
+        description: Transportation by air, water, land
+    - Agriculture:
+        description: Farming, forestry
+    - Conversion:
+        description: Energy conversion sector
+    - Losses:
+        description: Losses due to energy transport
