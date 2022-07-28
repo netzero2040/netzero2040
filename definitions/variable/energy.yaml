@@ -5,7 +5,16 @@
     description: Total net production of {Product} (including transmission losses)
     unit: [TJ]
 - Final Energy|{Final Energy Carrier}:
-    description: Final consumption of {Final Energy Carrier}, excluding transmission / distribution losses
+    description: Final consumption of {Final Energy Carrier}
+      (excluding transmission/distribution losses)
+    unit: TJ
+- Final Energy|{Sector}:
+    description: Final consumption by {Sector}
+      (excluding transmission/distribution losses)
+    unit: TJ
+- Final Energy|{Sector}|{Final Energy Carrier}:
+    description: Final consumption of {Final Energy Carrier} by {Sector}
+      (excluding transmission/distribution losses)
     unit: TJ
 
 - Transformation Input:
