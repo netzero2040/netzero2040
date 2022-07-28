@@ -1,0 +1,33 @@
+- Final Energy Carrier:
+    - Solids:
+        description: Solid fuels
+    - Solids|Coal:
+        description: Anthracite, coking coal, lignite, peat
+    - Solids|Biomass:
+        description: Solid biomass
+    - Liquids:
+        description: Liquid fuels
+    - Liquids|Oil:
+        description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil, fuel oil
+    - Liquids|Biomass:
+        description: Liquid biomass, biofuels
+    - Liquids|Synfuel:
+        description: Synthetic fuels
+    - Gas:
+        description: Gaseous fuels
+    - Gas|Natural Gas:
+        description: Natural (fossil) gas
+    - Gas|Coal Gas:
+        description: Coal gases
+    - Gas|Biogas:
+        description: Gas from biogenic sources
+    - Hydrogen:
+        description: Hydrogen
+    - Hydro:
+        description: Hydropower
+    - Electricity:
+        description: Electricity
+    - Solar:
+        description: Direct use of solar energy (heating)
+    - District Heating:
+        description: District heating
