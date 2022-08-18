@@ -23,7 +23,6 @@
         description: Gas from biogenic sources (lower energy content than methane)
     - Gas|Biomethane:
         description: Methane from biogenic sources
-    
     - Hydrogen:
         description: Hydrogen
     - Electricity:
