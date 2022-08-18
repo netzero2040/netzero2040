@@ -20,7 +20,10 @@
     - Gas|Coal Gas:
         description: Coal gases
     - Gas|Biogas:
-        description: Gas from biogenic sources
+        description: Gas from biogenic sources (lower energy content than methane)
+    - Gas|Biomethane:
+        description: Methane from biogenic sources
+    
     - Hydrogen:
         description: Hydrogen
     - Hydro:
