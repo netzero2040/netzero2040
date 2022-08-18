@@ -5,3 +5,6 @@
   - Germany:
       iso2: DE
       iso3: DEU
+  - Switzerland:
+      iso2: CH
+      iso3: CHE
