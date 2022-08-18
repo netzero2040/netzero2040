@@ -26,8 +26,6 @@
     
     - Hydrogen:
         description: Hydrogen
-    - Hydro:
-        description: Hydropower
     - Electricity:
         description: Electricity
     - Solar:
