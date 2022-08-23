@@ -29,5 +29,5 @@
         description: Electricity
     - Solar:
         description: Direct use of solar energy (heating)
-    - District Heating:
-        description: District heating
+    - Heat:
+        description: Heat
