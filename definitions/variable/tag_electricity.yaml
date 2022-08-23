@@ -1,8 +1,15 @@
 - Electricity Input:
     - Coal:
         description: Anthracite, coking coal, lignite, peat
-    - Crude Oil:
-        description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil, fuel oil
+    - Liquids:
+        description: Electricity Production from Liquid fuels
+    - Liquids|Fossil:
+        description: Electricity production from oil products refined from crude oil 
+        e.g. gasoline, diesel, gas oil, fuel oil
+    - Liquids|Synfuel:
+        description: Electricity production from liquid synthetic fuels, e.g. DME, Ethanol        
+    - Liquids|Bio:
+        description: Electricity production from liquid bio fuels, e.g. Biodiesel, bio ethanol etc.  
     - Natural Gas:
         description: Natural gas
     - Coal Gas:
