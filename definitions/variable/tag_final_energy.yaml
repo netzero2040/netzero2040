@@ -9,8 +9,8 @@
         description: Liquid fuels
     - Liquids|Fossil:
         description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil, fuel oil
-    - Liquids|Bio:
-        description: Liquid biomass, biofuels
+    - Liquids|Biofuels:
+        description: Liquid biomass and biofuels
     - Liquids|Synfuel:
         description: Synthetic fuels
     - Gas:
