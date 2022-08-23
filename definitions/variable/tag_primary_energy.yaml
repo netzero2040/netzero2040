@@ -5,8 +5,6 @@
         description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil, fuel oil
     - Natural Gas:
         description: Natural gas
-    - Coal Gas:
-        description: Coal gases
     - Biogas:
         description: Gas from biogenic sources
     - Biomass:
