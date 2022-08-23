@@ -7,9 +7,9 @@
         description: Solid biomass
     - Liquids:
         description: Liquid fuels
-    - Liquids|Oil:
+    - Liquids|Fossil:
         description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil, fuel oil
-    - Liquids|Biomass:
+    - Liquids|Bio:
         description: Liquid biomass, biofuels
     - Liquids|Synfuel:
         description: Synthetic fuels
@@ -23,7 +23,7 @@
         description: Gas from biogenic sources (lower energy content than methane)
     - Gas|Biomethane:
         description: Methane from biogenic sources
-    - Hydrogen:
+    - Gas|Hydrogen:
         description: Hydrogen
     - Electricity:
         description: Electricity
