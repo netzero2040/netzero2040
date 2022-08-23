@@ -10,13 +10,13 @@
         description: Electricity production from liquid synthetic fuels, e.g. DME, Ethanol        
     - Liquids|Bio:
         description: Electricity production from liquid bio fuels, e.g. Biodiesel, bio ethanol etc.  
-    - Natural Gas:
+    - Gas|Natural Gas:
         description: Natural gas
-    - Coal Gas:
+    - Gas|Coal Gas:
         description: Coal gases
-    - Hydrogen:
+    - Gas|Hydrogen:
         description: Hydrogen
-    - Biogas:
+    - Gas|Biogas:
         description: Gas from biogenic sources
     - Biomass:
         description: Liquid or solid biomass
