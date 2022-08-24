@@ -2,8 +2,7 @@
     - Coal:
         description: Anthracite, coking coal, lignite, peat
     - Crude Oil:
-        description: Oil products refined from crude oil, e.g., gasoline, diesel,
-          gas oil, fuel oil
+        description: Crude oil and oil products, e.g., gasoline, diesel, gas oil
     - Natural Gas:
         description: Natural gas
     - Biogas:

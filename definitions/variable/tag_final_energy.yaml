@@ -12,7 +12,7 @@
     - Liquids|Biofuels:
         description: Liquid biomass and biofuels
     - Liquids|Synfuel:
-        description: Synthetic fuels
+        description: Synthetic fuels, e.g., dimethyl ether (DME), methanol
     - Gas:
         description: Gaseous fuels
     - Gas|Natural Gas:
@@ -29,5 +29,5 @@
         description: Electricity
     - Solar:
         description: Direct use of solar energy (heating)
-    - Heat:
-        description: Heat
+    - District Heating:
+        description: Heat delivered from district heating grids

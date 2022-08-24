@@ -6,7 +6,7 @@
     - Liquids|Fossil:
         description: Oil products refined from crude oil e.g. diesel, gas oil, fuel oil
     - Liquids|Synfuel:
-        description: Liquid synthetic fuels, e.g., dimethyl ether (DME), ethanol
+        description: Liquid synthetic fuels, e.g., dimethyl ether (DME), methanol
     - Liquids|Biofuels:
         description: Liquid biofuels, e.g., biodiesel, bio-ethanol
     - Gas:
