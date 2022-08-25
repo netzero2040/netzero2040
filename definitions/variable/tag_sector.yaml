@@ -1,0 +1,17 @@
+- Sector:
+    - Households:
+        description: Households
+    - Services:
+        description: Service sector
+    - Industry:
+        description: Industrial sector, excluding non-energy use (e.g.feedstocks)
+    - Transport:
+        description: Transportation by air, water, land
+    - Transport|Road:
+        description: Transportation by Road      
+    - Transport|Rail:
+        description: Transportation by Rail
+    - Transport|Other:
+        description: Transportation by other means (Air, Water, Pipelines)
+    - Agriculture:
+        description: Agriculture including forestry

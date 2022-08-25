@@ -1,0 +1,21 @@
+- Primary Energy Carrier:
+    - Coal:
+        description: Anthracite, coking coal, lignite, peat
+    - Crude Oil:
+        description: Crude oil and oil products, e.g., gasoline, diesel, gas oil
+    - Natural Gas:
+        description: Natural gas
+    - Biogas:
+        description: Gas from biogenic sources
+    - Biomass:
+        description: Solid biomass
+    - Biofuel:
+        description: Liquid biomass
+    - Hydro:
+        description: Hydropower
+    - Solar:
+        description: Solar energy
+    - Wind:
+        description: Wind
+    - Geothermal:
+        description: Geothermal energy

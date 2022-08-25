@@ -1,0 +1,35 @@
+- Electricity Input:
+    - Coal:
+        description: Anthracite, coking coal, lignite, peat
+    - Liquids:
+        description: Liquid fuels
+    - Liquids|Fossil:
+        description: Oil products refined from crude oil e.g. diesel, gas oil, fuel oil
+    - Liquids|Synfuel:
+        description: Liquid synthetic fuels, e.g., dimethyl ether (DME), methanol
+    - Liquids|Biofuels:
+        description: Liquid biofuels, e.g., biodiesel, bio-ethanol
+    - Gas:
+        description: Gas including natural gas, biogas and hydrogen
+    - Gas|Natural Gas:
+        description: Natural gas
+    - Gas|Coal Gas:
+        description: Coal gases
+    - Gas|Hydrogen:
+        description: Hydrogen
+    - Gas|Biogas:
+        description: Gas from biogenic sources
+    - Biomass:
+        description: Solid biomass
+    - Hydro:
+        description: Hydropower
+    - Hydro|Run of River:
+        description: Run-of-river hydropower
+    - Hydro|Reservoir:
+        description: Reservoir-storage hydropower
+    - Solar:
+        description: Solar energy
+    - Wind:
+        description: Wind
+    - Geothermal:
+        description: Geothermal energy

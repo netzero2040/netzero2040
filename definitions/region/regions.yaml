@@ -2,3 +2,6 @@
   - Austria:
       iso2: AT
       iso3: AUT
+  - Germany:
+      iso2: DE
+      iso3: DEU

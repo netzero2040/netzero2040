@@ -1,0 +1,3 @@
+- Capacity|Electricity|{Electricity Input}:
+    description: Installed capacity to generate electricity from {Electricity Input}
+    unit: MW
