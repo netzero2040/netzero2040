@@ -8,7 +8,9 @@
     - Biogas:
         description: Gas from biogenic sources
     - Biomass:
-        description: Liquid or solid biomass
+        description: Solid biomass
+    - Biofuel:
+        description: Liquid biomass
     - Hydro:
         description: Hydropower
     - Solar:
