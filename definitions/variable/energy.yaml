@@ -1,10 +1,12 @@
 - Primary Energy|{Primary Energy Carrier}:
     description: Primary energy consumption of {Primary Energy Carrier}
     unit: TJ
+    note: should be equal to 'Domestic Production' + 'Imports' - 'Exports'
 - Secondary Energy|Electricity|{Electricity Input}:
     description: Total net generation of electricity from {Electricity Input}
       (including transmission losses)
     unit: TJ
+    note: this is equivalent to "Conversion Output"
 - Conversion Input|Electricity|{Electricity Input}:
     description: Consumption of {Electricity Input} for electricity generation
       (including transmission losses)
@@ -20,4 +22,13 @@
 - Final Energy|{Sector}|{Final Energy Carrier}:
     description: Final consumption of {Final Energy Carrier} by {Sector}
       (excluding transmission/distribution losses)
+    unit: TJ
+- Domestic Production|{Primary Energy Carrier}:
+    description: Domestic production of {Primary Energy Carrier}
+    unit: TJ
+- Imports|{Primary Energy Carrier}:
+    description: Gross imports of {Primary Energy Carrier}
+    unit: TJ
+- Exports|{Primary Energy Carrier}:
+    description: Gross exports of {Primary Energy Carrier}
     unit: TJ
