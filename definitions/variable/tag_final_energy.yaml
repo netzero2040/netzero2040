@@ -31,3 +31,5 @@
         description: Direct use of solar energy (heating)
     - District Heating:
         description: Heat delivered from district heating grids
+    - Waste:
+        description: Combustible waste

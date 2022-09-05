@@ -33,3 +33,5 @@
         description: Wind
     - Geothermal:
         description: Geothermal energy
+    - Waste:
+        description: Combustible waste
