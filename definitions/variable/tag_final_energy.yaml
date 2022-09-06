@@ -4,14 +4,16 @@
     - Solids|Coal:
         description: Anthracite, coking coal, lignite, peat
     - Solids|Biomass:
-        description: Solid biomass including wood pellets, wood briquettes, wood waste, char coal, and other biogenic 
-          solids
+        description: Solid biomass including wood pellets, wood briquettes, wood waste, 
+          char coal, and other biogenic solids
     - Liquids:
         description: Liquid fuels
     - Liquids|Fossil:
-        description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil, fuel oil
+        description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil, 
+          fuel oil
     - Liquids|Biofuels:
-        description: Liquid biomass and biofuels including spent lye, bioethanol, biodiesel, and other biogenic liquids
+        description: Liquid biomass and biofuels including spent lye, bioethanol, 
+          biodiesel, and other biogenic liquids
     - Liquids|Synfuel:
         description: Synthetic fuels, e.g., dimethyl ether (DME), methanol
     - Gas:
@@ -21,8 +23,8 @@
     - Gas|Coal Gas:
         description: Coal gases
     - Gas|Biogas:
-        description: Gas from biogenic sources including landfill gas, sewer gas, and biogas (lower energy content than 
-          methane)
+        description: Gas from biogenic sources including landfill gas, sewer gas, and 
+          biogas (lower energy content than methane)
     - Gas|Biomethane:
         description: Methane from biogenic sources
     - Gas|Hydrogen:
