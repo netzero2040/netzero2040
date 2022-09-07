@@ -17,8 +17,14 @@
         description: Coal gases
     - Gas|Hydrogen:
         description: Hydrogen
+    - Gas|Synthetic Gas:
+        description: Synthetically produced methane
+    - Gas|Synthetic Gas|Green Methane:
+        description: Synthetically produced methane from renewable sources
+    - Gas|Synthetic Gas|Other Methane:
+        description: Synthtically produced methane from non-renewable sources
     - Gas|Biogas:
-        description: Gas from biogenic sources
+        description: Gas from biogenic sources (lower energy content than methane)
     - Biomass:
         description: Solid biomass
     - Hydro:
