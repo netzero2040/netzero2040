@@ -18,7 +18,7 @@
     - Gas|Hydrogen:
         description: Hydrogen
     - Gas|Synthetic Gas:
-        description: Synthetically produced gas
+        description: Synthetically produced methane
     - Gas|Synthetic Gas|Green Methane:
         description: Synthetically produced methane from renewable sources
     - Gas|Synthetic Gas|Other Methane:
