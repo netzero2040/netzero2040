@@ -10,21 +10,30 @@
     - Liquids|Biofuels:
         description: Liquid biofuels, e.g., biodiesel, bio-ethanol
     - Gas:
-        description: Gas including natural gas, biogas and hydrogen
-    - Gas|Natural Gas:
-        description: Natural gas
-    - Gas|Coal Gas:
-        description: Coal gases
+        description: Gaseous fuels
     - Gas|Hydrogen:
         description: Hydrogen
-    - Gas|Synthetic Gas:
-        description: Synthetically produced methane
-    - Gas|Synthetic Gas|Green Methane:
-        description: Synthetically produced methane from renewable sources
-    - Gas|Synthetic Gas|Other Methane:
-        description: Synthtically produced methane from non-renewable sources
+    - Gas|Hydrogen|Renewable Sources:
+        description: Hydrogen from renewable sources
+    - Gas|Hydrogen|Other Sources:
+        description: Hydrogen from non-renewable sources
+    - Gas|Methane:
+        description: Methane
+    - Gas|Methane|Fossil:
+        description: Fossil methane (natural gas)
+    - Gas|Methane|Biogenic:
+        description: Methane from biogenic sources
+    - Gas|Methane|Synthetic:
+        description: Synthesized methane
+    - Gas|Methane|Synthetic|Renewable Sources:
+        description: Synthesized methane from renewable sources
+    - Gas|Methane|Synthetic|Other Sources:
+        description: Synthesized methane from non-renewable sources
     - Gas|Biogas:
-        description: Gas from biogenic sources (lower energy content than methane)
+        description: Gas from biogenic sources including landfill gas, sewer gas, and 
+          biogas (lower energy content than methane)
+    - Gas|Coal Gas:
+        description: Coal gases
     - Biomass:
         description: Solid biomass
     - Hydro:
