@@ -31,7 +31,7 @@
         description: Synthesized methane from non-renewable sources
     - Gas|Biogas:
         description: Gas from biogenic sources including landfill gas, sewer gas, and 
-          biogas (lower energy content than methane)
+          biogas (lower methane content than fossil natural gas)
     - Gas|Coal Gas:
         description: Coal gases
     - Biomass:
