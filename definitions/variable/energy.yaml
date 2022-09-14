@@ -23,6 +23,12 @@
     description: Final consumption of {Final Energy Carrier} by {Sector}
       (excluding transmission/distribution losses)
     unit: TJ
+- Final Energy|{Sector}|{Final Energy Carrier}|Minimum:
+    description: Minimum consumption of {Final Energy Carrier} by {Sector}
+      (excluding transmission/distribution losses)
+    unit: TJ
+    note: This variable is the lower bound of this fuel in the energy mix of a scenario.
+      It is used in the study "Green Gas (June 2021)" by the Austrian Energy Agency.
 - Domestic Production|{Primary Energy Carrier}:
     description: Domestic production of {Primary Energy Carrier}
     unit: TJ
@@ -32,12 +38,15 @@
 - Imports|{Primary Energy Carrier}|{Imports Source}:
     description: Gross imports of {Primary Energy Carrier} from {Imports Source}
     unit: TJ
-- Exports|{Primary Energy Carrier}:
-    description: Gross exports of {Primary Energy Carrier}
-    unit: TJ
 - Imports|Other (Diversification):
     description: Gross imports of other energy carriers than natural gas
       as part of the diversification away from Russian gas imports
     unit: TJ
-    note: This variable is used in the scenario "Russia Gas Exit (April 2022)"
-      by the Austrian Energy Agency
+    note: This variable is used in the study "Russia Gas Exit (April 2022)"
+      by the Austrian Energy Agency.
+- Exports|{Primary Energy Carrier}:
+    description: Gross exports of {Primary Energy Carrier}
+    unit: TJ
+- Net Imports|{Primary Energy Carrier}:
+    description: Net imports of {Primary Energy Carrier}
+    unit: TJ
