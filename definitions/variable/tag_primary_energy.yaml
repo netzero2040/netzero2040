@@ -1,23 +1,45 @@
 - Primary Energy Carrier:
-    - Coal:
+    - Gas:
+      description: Gaseous primary fuels
+      unit: TJ
+    - Gas|Methane|Fossil:
+        description: Fossil methane (natural gas)
+      unit: TJ
+    - Gas|Biogas:
+        description: Gas from biogenic sources including landfill gas, sewer gas, and 
+          biogas (lower methane content than fossil natural gas)
+        unit: TJ
+    - Solids:
+        description: Solid fuels
+        unit: TJ
+    - Solids|Coal:
         description: Anthracite, coking coal, lignite, peat
-    - Crude Oil:
-        description: Crude oil and oil products, e.g., gasoline, diesel, gas oil
-    - Natural Gas:
-        description: Natural gas
-    - Biogas:
-        description: Gas from biogenic sources
-    - Biomass:
-        description: Solid biomass
-    - Biofuel:
-        description: Liquid biomass
+        unit: TJ
+    - Solids|Biomass:
+        description: Primary solid biomass
+        unit: TJ
+   - Liquids:
+        description: Primary liquid fuels
+        unit: TJ
+    - Liquids|Fossil:
+        description: Crude Oil
+        unit: TJ
+    - Liquids|Biofuels:
+        description: Primary liquid biofuels including pure biodiesel, biogasoline, bio jet kerosene 
+          and other liquid biofuels
+        unit: TJ
     - Hydro:
         description: Hydropower
+        unit: TJ
     - Solar:
         description: Solar energy
+        unit: TJ
     - Wind:
         description: Wind
+        unit: TJ
     - Geothermal:
         description: Geothermal energy
+        unit: TJ
     - Waste:
         description: Combustible waste
+        unit: TJ

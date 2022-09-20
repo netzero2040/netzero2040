@@ -1,12 +1,12 @@
-- Final Energy Carrier:
+- Secondary Energy Carrier:
     - Solids:
         description: Solid fuels
         unit: TJ
     - Solids|Coal:
-        description: Anthracite, coking coal, lignite, peat
+        description: Secondary fossil solid fuel products like coke oven coke
         unit: TJ
     - Solids|Biomass:
-        description: Solid biomass including wood pellets, wood briquettes, wood waste, 
+        description: Secondary solid biomass including wood pellets, wood briquettes, wood waste, 
           char coal, and other biogenic solids
         unit: TJ
     - Liquids:
@@ -24,8 +24,8 @@
         description: Synthetic fuels, e.g., dimethyl ether (DME), methanol
         unit: TJ
     - Gas:
-        description: Gaseous fuels
-        unit: TJ
+          description: Secondary gaseous fuels
+          unit: TJ
     - Gas|Hydrogen:
         description: Hydrogen
         unit: TJ
@@ -35,7 +35,7 @@
     - Gas|Hydrogen|Other Sources:
         description: Hydrogen from non-renewable sources
         unit: TJ
-    - Gas|Methane:
+   - Gas|Methane:
         description: Methane
         unit: TJ
     - Gas|Methane|Fossil:
@@ -53,22 +53,20 @@
     - Gas|Methane|Synthetic|Other Sources:
         description: Synthesized methane from non-renewable sources
         unit: TJ
-    - Gas|Biogas:
+   - Gas|Biogas:
         description: Gas from biogenic sources including landfill gas, sewer gas, and 
           biogas (lower methane content than fossil natural gas)
         unit: TJ
     - Gas|Coal Gas:
         description: Coal gases
         unit: TJ
-    - Electricity:
-        description: Electricity
+    - Electricity|{Electricity Input}:
+        description: Total net generation of electricity from {Electricity Input}
+          (including transmission losses)
         unit: TJ
-    - Solar:
-        description: Direct use of solar energy (heating)
-        unit: TJ
-    - District Heating:
-        description: Heat delivered from district heating grids
-        unit: TJ
-    - Waste:
-        description: Combustible waste
-        unit: TJ
+    - District Heating|{Heat Input}:
+          description: District heat produced in CHPs and heatplants from {Heat Input}
+          unit: TJ
+
+
+

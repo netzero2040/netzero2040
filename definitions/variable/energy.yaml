@@ -1,11 +1,34 @@
+- Domestic Production|{Primary Energy Carrier}:
+    description: Domestic production of {Primary Energy Carrier}
+    unit: TJ
+- Imports|{Primary Energy Carrier}:
+    description: Gross imports of {Primary Energy Carrier}
+    unit: TJ
+- Imports|{Primary Energy Carrier}|{Imports Source}:
+    description: Gross imports of {Primary Energy Carrier} from {Imports Source}
+    unit: TJ
+    note: This variable is used in the study "Russia Gas Exit (April 2022)"
+      by the Austrian Energy Agency.
+- Imports|Other (Diversification):
+    description: Gross imports of other energy carriers than natural gas
+      as part of the diversification away from Russian gas imports
+    unit: TJ
+    note: This variable is used in the study "Russia Gas Exit (April 2022)"
+      by the Austrian Energy Agency.
+- Exports|{Primary Energy Carrier}:
+    description: Gross exports of {Primary Energy Carrier}
+    unit: TJ
+- Net Imports|{Primary Energy Carrier}:
+    description: Net imports of {Primary Energy Carrier}
+    unit: TJ
+    note: should be equivalent to 'Imports' - 'Exports'
 - Primary Energy|{Primary Energy Carrier}:
     description: Primary energy consumption of {Primary Energy Carrier}
     unit: TJ
     note: should be equal to 'Domestic Production' + 'Imports' - 'Exports'
-- Secondary Energy|Electricity|{Electricity Input}:
-    description: Total net generation of electricity from {Electricity Input}
-      (including transmission losses)
-    unit: TJ
+- Secondary Energy|{Secondary Energy Carrier}:
+    description: Energy commodity produced from a primary energy carrier
+    Unit: TJ
     note: this is equivalent to "Conversion Output"
 - Conversion Input|Electricity|{Electricity Input}:
     description: Consumption of {Electricity Input} for electricity generation
@@ -29,24 +52,3 @@
     unit: TJ
     note: This variable is the lower bound of this fuel in the energy mix of a scenario.
       It is used in the study "Green Gas (June 2021)" by the Austrian Energy Agency.
-- Domestic Production|{Primary Energy Carrier}:
-    description: Domestic production of {Primary Energy Carrier}
-    unit: TJ
-- Imports|{Primary Energy Carrier}:
-    description: Gross imports of {Primary Energy Carrier}
-    unit: TJ
-- Imports|{Primary Energy Carrier}|{Imports Source}:
-    description: Gross imports of {Primary Energy Carrier} from {Imports Source}
-    unit: TJ
-- Imports|Other (Diversification):
-    description: Gross imports of other energy carriers than natural gas
-      as part of the diversification away from Russian gas imports
-    unit: TJ
-    note: This variable is used in the study "Russia Gas Exit (April 2022)"
-      by the Austrian Energy Agency.
-- Exports|{Primary Energy Carrier}:
-    description: Gross exports of {Primary Energy Carrier}
-    unit: TJ
-- Net Imports|{Primary Energy Carrier}:
-    description: Net imports of {Primary Energy Carrier}
-    unit: TJ
