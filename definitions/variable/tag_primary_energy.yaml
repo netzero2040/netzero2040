@@ -18,7 +18,7 @@
     - Solids|Biomass:
         description: Primary solid biomass
         unit: TJ
-   - Liquids:
+    - Liquids:
         description: Primary liquid fuels
         unit: TJ
     - Liquids|Fossil:

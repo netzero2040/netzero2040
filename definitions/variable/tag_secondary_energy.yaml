@@ -35,7 +35,7 @@
     - Gas|Hydrogen|Other Sources:
         description: Hydrogen from non-renewable sources
         unit: TJ
-   - Gas|Methane:
+    - Gas|Methane:
         description: Methane
         unit: TJ
     - Gas|Methane|Fossil:
@@ -53,7 +53,7 @@
     - Gas|Methane|Synthetic|Other Sources:
         description: Synthesized methane from non-renewable sources
         unit: TJ
-   - Gas|Biogas:
+    - Gas|Biogas:
         description: Gas from biogenic sources including landfill gas, sewer gas, and 
           biogas (lower methane content than fossil natural gas)
         unit: TJ
@@ -67,6 +67,3 @@
     - District Heating|{Heat Input}:
           description: District heat produced in CHPs and heatplants from {Heat Input}
           unit: TJ
-
-
-
