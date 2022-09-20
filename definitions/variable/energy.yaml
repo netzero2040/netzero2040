@@ -28,7 +28,7 @@
     note: should be equal to 'Domestic Production' + 'Imports' - 'Exports'
 - Secondary Energy|{Secondary Energy Carrier}:
     description: Energy commodity produced from a primary energy carrier
-    Unit: TJ
+    unit: TJ
     note: this is equivalent to "Conversion Output"
 - Conversion Input|Electricity|{Electricity Input}:
     description: Consumption of {Electricity Input} for electricity generation
