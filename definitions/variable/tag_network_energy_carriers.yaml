@@ -1,5 +1,5 @@
 - Network-Based Energy Carriers:
     - Gas:
-        description: Gaseous energy carriers like fossil methane (Natural gas), biogenic methane, synthetic methane etc.
+        description: Gaseous energy carriers including fossil methane (natural gas), biogenic methane, biogas
     - Electricity:
         description: Electricity

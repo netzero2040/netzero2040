@@ -43,8 +43,8 @@
 - Transmission Losses|{Network-Based Energy Carriers}:
     description: Transmission losses of {Network-Based Energy Carriers}
     unit: TJ
-- Energy Sector Own Use|Natural Gas:
-    description: Own use by the energy sector
+- Energy Sector Own Use|Gas|Methane:
+    description: Own use of methane by the energy sector
     unit: TJ
 - Non-Energy Use|{Primary Energy Carrier}:
     description: Consumption of {Primary Energy Carrier} for non-energetic uses
