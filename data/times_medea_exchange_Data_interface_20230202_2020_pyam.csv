@@ -1,0 +1,50 @@
+Model;Scenario;Region;Variable;Unit;2020
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Biogas|Combined Heat and Power;MW;90,0084777492597
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Biomass.Bio Fuels|Combined Heat and Power;MW;0,4605
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Biomass.Biomass|Combined Heat and Power;MW;932,3345084401604
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Biomass.Biomass|Heat Plant;MW;2899,1147211680054
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Biomass.Sewage Sludge Gas|Combined Heat and Power;MW;1,79081578220006
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Coal Gas|Combined Heat and Power;MW;406,9918523127882
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Coal|Combined Heat and Power;MW;556,863549118742
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Electricity|Heat Plant;MW;200,0
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Gas|Combined Heat and Power;MW;4411,258762106766
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Gas|Heat Plant;MW;878,379475442426
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Gas|Power Plant;MW;154,0
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Geothermal|Heat Plant;MW;83,3137512691118
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Geothermal|Power Plant;MW;441,82321918792695
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Hydro|Reservoir Storage;MW;8417,683999999996
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Hydro|Run-of-river Plant;MW;6158,95412864146
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Hydro|Storage;MW;6,381369912139142
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Oil|Combined Heat and Power;MW;150,52245144791945
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Oil|Heat Plant;MW;36,2219649882742
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Solar|Heat Plant;MW;25,217990389340805
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Solar|Solar PV Central;MW;2043,0
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Waste|Combined Heat and Power;MW;121,91394605157268
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Waste|Heat Plant;MW;147,93627037288212
+BASE_MODEL;Data_interface_20230202;Austria;Capacity|Wind|Turbine;MW;3163,8683200000005
+BASE_MODEL;Data_interface_20230202;Austria;Distribution Losses|Electricity;TJ;12098,556541018012
+BASE_MODEL;Data_interface_20230202;Austria;Distribution Losses|Heat;TJ;12388,92616879612
+BASE_MODEL;Data_interface_20230202;Austria;Emissions|Electricity|CH4;kt;3,345500260400834
+BASE_MODEL;Data_interface_20230202;Austria;Emissions|Electricity|CO2;kt;16450,767236923875
+BASE_MODEL;Data_interface_20230202;Austria;Emissions|Electricity|N2O;kt;0,1527806304034717
+BASE_MODEL;Data_interface_20230202;Austria;Emissions|Heat|CH4;kt;1,2317746897190331
+BASE_MODEL;Data_interface_20230202;Austria;Emissions|Heat|CO2;kt;647,9194610864633
+BASE_MODEL;Data_interface_20230202;Austria;Emissions|Heat|N2O;kt;0,16407820503020715
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Agriculture|Electricity;TJ;4297,742011844374
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Agriculture|Heat;TJ;480,70640065921697
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Households|Electricity;TJ;65232,75513363921
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Households|Heat;TJ;32272,734333635606
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Industry|Electricity;TJ;98150,9775711063
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Industry|Heat;TJ;10493,191899677264
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Services|Electricity;TJ;35720,945890923846
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Services|Heat;TJ;28717,741087443297
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Transport.Pipeline|Electricity;TJ;4537,487098243855
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Transport.Road.Bus|Electricity;TJ;27,49495242253804
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Transport.Road.Cars|Electricity;TJ;224,10634317347163
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Transport.Road.LDV|Electricity;TJ;95,08208414392472
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Transport.Road|Electricity;TJ;23671,95831208632
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Transport.Train|Electricity;TJ;6073,285269377237
+BASE_MODEL;Data_interface_20230202;Austria;Final Energy Consumption|Transport|Electricity;TJ;17141,3653398537
+BASE_MODEL;Data_interface_20230202;Austria;Self Consumption Sector Energy|Electricity;TJ;18440,35358859852
+BASE_MODEL;Data_interface_20230202;Austria;Transformation Input|Electricity|Biomass;TJ;23493,51168202337
+BASE_MODEL;Data_interface_20230202;Austria;Transformation Input|Heat|Biomass;TJ;38551,76328449156
