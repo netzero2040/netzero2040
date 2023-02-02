@@ -1,3 +1,6 @@
 - Capacity|Electricity|{Electricity Input}:
     description: Installed capacity to generate electricity from {Electricity Input}
     unit: MW
+- Capacity|Heat|{Heat Input}:
+    description: Installed capacity to generate Heat from {Heat Input}
+    unit: MW

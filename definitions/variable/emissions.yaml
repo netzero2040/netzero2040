@@ -1,0 +1,8 @@
+- Emissions|Electricity|{Emission Source}:
+        description: Emission Source emissions emitted electricity generation
+        unit: kt
+
+- Emissions|Heat|{Emission Source}:
+        description: Emission Source emissions emitted heat generation
+        unit: kt
+

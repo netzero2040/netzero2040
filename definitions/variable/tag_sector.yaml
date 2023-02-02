@@ -4,14 +4,38 @@
     - Services:
         description: Service sector
     - Industry:
-        description: Industrial sector, excluding non-energy use (e.g.feedstocks)
-    - Transport:
-        description: Transportation by air, water, land
-    - Transport|Road:
-        description: Transportation by Road      
-    - Transport|Rail:
-        description: Transportation by Rail
-    - Transport|Other:
-        description: Transportation by other means (Air, Water, Pipelines)
+        description: Industrial activities
     - Agriculture:
-        description: Agriculture including forestry
+        description: Farming, forestry
+    # transport
+    - Transport:
+        description: Transportation
+    # transport on road
+    - Transport.Road:
+        description: Transportation by road
+    - Transport.Road.Cars:
+        description: Transportation by road by cars
+    - Transport.Road.LDV:
+        description: Transportation by road by light duty vehicles
+    - Transport.Road.Truck:
+        description: Transportation by road by Truck
+    - Transport.Road.Bus:
+        description: Transportation by road by Bus
+    # other transport
+    - Transport.Pipeline:
+          description: Transportation by pipeline
+    - Transport.Train:
+        description: Transportation Train
+
+    # other
+    - Conversion:
+        description: Energy conversion sector
+    - Distribution Losses:
+        description: Losses due to energy transport
+
+    #
+    # - SectorEnergy.Self Consumption:
+    #       description: self consumption of the energy sector
+    # - SectorEnergy.Distribution Losses:
+    #       description: distribution losses of the energy sector
+

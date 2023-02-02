@@ -1,0 +1,36 @@
+- Source:
+    - Coal:
+        description: Anthracite, coking coal, lignite, peat
+    - Oil:
+        description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil, fuel oil
+    # todo change to natural gas?
+    - Gas:
+        description: Natural gas,
+    - Coal Gas:
+        description: Coal gases
+    - Biogas:
+        description: Gas from biogenic sources
+    - Biomass:
+        description: Liquid or solid biomass
+    - Biomass.Biomass:
+          description: solid biomass
+    - Biomass.Bio Fuels:
+          description: Liquid biomass
+    - Biomass.Sewage Sludge Gas:
+          description: Biomass from Sewage Sludge Gas
+    - Hydro:
+        description: Water
+    - Geothermal:
+        description: Geothermal energy
+    - Electricity:
+        description: Electric energy
+    - Solar:
+        description: Solar energy
+    - Wind:
+        description: Wind
+    - Hydrogen:
+        description: Hydrogen
+    - Synfuel:
+        description: Synthetic fuels
+    - Waste:
+          descriton: Waste

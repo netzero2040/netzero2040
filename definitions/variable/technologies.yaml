@@ -1,0 +1,7 @@
+- Capacity|{Source}:
+    description: Total installed capacity to generate energy from {Source}
+    unit: [MW, GW]
+
+- Capacity|{Source}|{Plant}:
+    description: Total installed capacity to generate energy from {Source}
+    unit: [MW, GW]
