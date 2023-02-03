@@ -9,3 +9,4 @@
     unit: MW
 - Capacity|Electrolyzer|Hydrogen|Electricity:
     description: Installed capacity to generate hydrogen from electricity
+    unit: MW
