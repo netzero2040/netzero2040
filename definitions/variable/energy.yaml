@@ -5,6 +5,10 @@
     description: Total net generation of electricity from {Electricity Input}
       (including transmission losses)
     unit: TJ
+- Secondary Energy|Heat|{Heat Input}:
+    description: Total net generation of electricity from {Electricity Input}
+      (including transmission losses)
+    unit: TJ
 - Conversion Input|Electricity|{Electricity Input}:
     description: Consumption of {Electricity Input} for electricity generation
       (including transmission losses)

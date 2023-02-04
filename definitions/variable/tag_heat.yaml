@@ -1,6 +1,6 @@
-- Electricity Input:
-    - Coal:
-        description: Anthracite, coking coal, lignite, peat
+- Heat Input:
+    - Electricity:
+        description: Electricity
     - Liquids:
         description: Liquid fuels
     - Liquids|Fossil:
@@ -27,18 +27,8 @@
         description: Gas from biogenic sources (lower energy content than methane)
     - Biomass:
         description: Solid biomass
-    - Hydro:
-        description: Hydropower
-    - Hydro|Run of River:
-        description: Run-of-river hydropower
-    - Hydro|Reservoir:
-        description: Reservoir-storage hydropower
-    - Hydro|Reservoir Inflows:
-        description: Inflows of water into hydro reservoirs incl. pumped storages
     - Solar:
         description: Solar energy
-    - Wind:
-        description: Wind
     - Geothermal:
         description: Geothermal energy
     - Waste:

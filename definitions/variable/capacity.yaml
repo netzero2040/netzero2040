@@ -7,6 +7,24 @@
 - Capacity|Heat Plant|Heat|{Electricity Input}:
     description: Installed capacity to generate electricity from {Electricity Input}
     unit: MW
-- Capacity|Electrolyzer|Hydrogen|Electricity:
+- Capacity|Storage|Electricity|Hydro|Pumped:
+    description: Installed capacity to generate electricity from {Electricity Input}
+    unit: MW
+- Capacity|Storage|Electricity|Hydro|Reservoir:
+    description: Installed capacity to generate electricity from {Electricity Input}
+    unit: MW
+- Capacity|Storage|Electricity|Battery:
+    description: Installed capacity to generate electricity from {Electricity Input}
+    unit: MW
+- Capacity|Storage|Heat:
+    description: Installed capacity to generate electricity from {Electricity Input}
+    unit: MW
+- Capacity|Storage|CO2:
+    description: Installed capacity to generate electricity from {Electricity Input}
+    unit: MW
+- Capacity|Storage|Hydrogen:
+    description: Installed capacity to generate electricity from {Electricity Input}
+    unit: MW
+- Capacity|P2G|Hydrogen|Electricity:
     description: Installed capacity to generate hydrogen from electricity
     unit: MW
