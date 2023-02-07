@@ -1,0 +1,9 @@
+- Emissions|CO2:
+    description: Net CO2 emissions
+    unit: Mt CO2/yr
+- Emissions|CO2|{ETS}:
+    description: Net CO2 emissions from all sources in sectors {ETS}
+    unit: Mt CO2/yr
+- Emissions|CO2|{Sector}:
+    description: Net CO2 emissions from {Sector}
+    unit: Mt CO2/yr
