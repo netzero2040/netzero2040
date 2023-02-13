@@ -1,7 +1,9 @@
 - GDP:
     description: Gross Domestic Product
     unit: million EUR_2020/yr
-
 - Population:
     description: Total population
+    unit: million
+- Employment:
+    description: Number of employed inhabitants (based on ILO classification)
     unit: million
