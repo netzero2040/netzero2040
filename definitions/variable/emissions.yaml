@@ -7,3 +7,17 @@
 - Emissions|CO2|{Sector}:
     description: Net CO2 emissions from {Sector}
     unit: Mt CO2/yr
+
+- Emissions|CH4:
+    description: Methane emissions
+    unit: Mt CH4/yr
+- Emissions|CH4|{Sector}:
+    description: Methane emissions from {Sector}
+    unit: Mt CH4/yr
+
+- Emissions|N2O:
+    description: Nitrous oxide emissions
+    unit: Mt N2O/yr
+- Emissions|N2O|{Sector}:
+    description: Nitrous oxide emissions from {Sector}
+    unit: Mt N2O/yr
