@@ -13,7 +13,7 @@
 - Capacity|Storage|Level|Electricity|{Electricity Storage Types}:
     description: Capacity to store electrical energy
     unit: GWh
-- Capacity|Storage|Charging|Electricity|{Electrictiy Storage Types}:
+- Capacity|Storage|Charging|Electricity|{Electricity Storage Types}:
     description: Installed capacity to charge electricity storage
     unit: MW
 - Capacity|Storage|Discharging|Electricity|{Electricity Storage Types}:
