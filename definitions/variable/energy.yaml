@@ -1,6 +1,7 @@
 - Primary Energy|{Primary Energy Carrier}:
     description: Primary energy consumption of {Primary Energy Carrier}
     unit: TJ
+    note: should be equal to 'Domestic Production' + 'Imports' - 'Exports'
 - Secondary Energy|Electricity|{Electricity Input}:
     description: Total net generation of electricity from {Electricity Input}
       (including transmission losses)
@@ -9,9 +10,21 @@
     description: Total net generation of electricity from {Electricity Input}
       (including transmission losses)
     unit: TJ
+    note: this is equivalent to "Conversion Output"
 - Conversion Input|Electricity|{Electricity Input}:
     description: Consumption of {Electricity Input} for electricity generation
       (including transmission losses)
+    unit: TJ
+- Secondary Energy|Hydrogen:
+    description: Total net generation of hydrogen
+    unit: TJ
+    note: this is equivalent to "Conversion Output"
+- Secondary Energy|District Heat:
+    description: Total net generation of district heat
+    unit: TJ
+    note: this is equivalent to "Conversion Output"
+- Conversion Input|District Heat|{District Heat Input}:
+    description: Consumption of {District Heat Input} for generation of district heat
     unit: TJ
 - Final Energy|{Final Energy Carrier}:
     description: Final consumption of {Final Energy Carrier}
@@ -24,4 +37,43 @@
 - Final Energy|{Sector}|{Final Energy Carrier}:
     description: Final consumption of {Final Energy Carrier} by {Sector}
       (excluding transmission/distribution losses)
+    unit: TJ
+- Final Energy|{Sector}|{Final Energy Carrier}|Minimum:
+    description: Minimum consumption of {Final Energy Carrier} by {Sector}
+      (excluding transmission/distribution losses)
+    unit: TJ
+    note: This variable is the lower bound of this fuel in the energy mix of a scenario.
+      It is used in the study "Green Gas (June 2021)" by the Austrian Energy Agency.
+- Transmission Losses|{Network-Based Energy Carriers}:
+    description: Transmission losses of {Network-Based Energy Carriers}
+    unit: TJ
+- Energy Sector Own Use|Gas|Methane:
+    description: Own use of methane by the energy sector
+    unit: TJ
+- Non-Energy Use|{Final Energy Carrier}:
+    description: Consumption of {Final Energy Carrier} for non-energetic uses
+    unit: TJ
+- Domestic Production|{Primary Energy Carrier}:
+    description: Domestic production of {Primary Energy Carrier}
+    unit: TJ
+- Imports|{Primary Energy Carrier}:
+    description: Gross imports of {Primary Energy Carrier}
+    unit: TJ
+- Imports|{Primary Energy Carrier}|{Imports Source}:
+    description: Gross imports of {Primary Energy Carrier} from {Imports Source}
+    unit: TJ
+- Imports|Other (Diversification):
+    description: Gross imports of other energy carriers than natural gas
+      as part of the diversification away from Russian gas imports
+    unit: TJ
+    note: This variable is used in the study "Russia Gas Exit (April 2022)"
+      by the Austrian Energy Agency.
+- Exports|{Primary Energy Carrier}:
+    description: Gross exports of {Primary Energy Carrier}
+    unit: TJ
+- Net Imports|{Primary Energy Carrier}:
+    description: Net imports of {Primary Energy Carrier}
+    unit: TJ
+- Stock Changes|{Primary Energy Carrier}:
+    description: Net stock changes of {Primary Energy Carrier}
     unit: TJ
