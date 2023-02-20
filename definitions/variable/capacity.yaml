@@ -1,3 +1,40 @@
-- Capacity|Electricity|{Electricity Input}:
+- Capacity|Power Plant|Electricity|{Electricity Input}:
     description: Installed capacity to generate electricity from {Electricity Input}
     unit: MW
+- Capacity|Combined Heat and Power Plant|Electricity|{Electricity Input}:
+    description: Installed capacity to co-generate electricity from {Electricity Input}
+    unit: MW
+- Capacity|Heat Plant|Heat|{Heat Input}:
+    description: Installed capacity to generate heat from {Heat Input}
+    unit: MW
+- Capacity|Electrolyser|Hydrogen|Electricity:
+    description: Installed capacity to generate hydrogen from electricity
+    unit: MW
+- Capacity|Storage|Level|Electricity|{Electricity Storage Types}:
+    description: Capacity to store electrical energy
+    unit: GWh
+- Capacity|Storage|Charging|Electricity|{Electricity Storage Types}:
+    description: Installed capacity to charge electricity storage
+    unit: MW
+- Capacity|Storage|Discharging|Electricity|{Electricity Storage Types}:
+    description: Installed capacity to discharge electricity storage
+    unit: MW
+- Capacity|Storage|Level|Heat|{Heat Storage Types}:
+    description: Capacity to store heat energy
+    unit: GWh
+- Capacity|Storage|Charging|Heat|{Heat Storage Types}:
+    description: Installed capacity to charge heat storage
+    unit: MW
+- Capacity|Storage|Discharging|Heat|{Heat Storage Types}:
+    description: Installed capacity to discharge heat storage
+    unit: MW
+- Capacity|Storage|Level|Hydrogen|{Hydrogen Storage Types}:
+    description: (Energy-equivalent) capacity to store hydrogen
+    unit: GWh
+- Capacity|Storage|Charging|Hydrogen|{Hydrogen Storage Types}:
+    description: (Energy-equivalent) capacity to charge hydrogen storage
+    unit: MW
+- Capacity|Storage|Discharging|Hydrogen|{Hydrogen Storage Types}:
+    description: (Energy-equivalent) capacity to discharge hydrogen storage
+    unit: MW
+

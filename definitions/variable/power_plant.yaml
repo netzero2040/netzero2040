@@ -1,0 +1,10 @@
+# List of variables related to power plant attributes
+- Inflows|Electricity|Hydro:
+    description: (energy-equivalent) inflows of water into hydro storages
+    unit: GWh
+- Inflows|Electricity|Hydro|Pumped:
+    description: (energy-equivalent) inflows of water into reservoirs of pumped hydro
+    unit: GWh
+- Inflows|Electricity|Hydro|Reservoir:
+    description: (energy-equivalent) inflows of water into hydro reservoirs
+    unit: GWh

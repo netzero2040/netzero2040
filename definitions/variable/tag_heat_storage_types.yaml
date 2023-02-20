@@ -1,0 +1,5 @@
+- Heat Storage Types:
+    - Hot Water Tank:
+        description: large-scale hot water tank in district heating systems
+    - Pit Storage:
+        description: large-scale pit thermal energy storage for district heating

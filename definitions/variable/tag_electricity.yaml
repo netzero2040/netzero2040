@@ -42,6 +42,8 @@
         description: Run-of-river hydropower
     - Hydro|Reservoir:
         description: Reservoir-storage hydropower
+    - Hydro|Pumped Storage:
+        description: Pumped storage hydro power
     - Solar:
         description: Solar energy
     - Wind:
