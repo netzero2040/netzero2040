@@ -1,3 +1,13 @@
+- Emissions|Electricity|{Emission Source}:
+        description: Emission Source emissions emitted electricity generation
+        unit: kt
+
+- Emissions|Heat|{Emission Source}:
+        description: Emission Source emissions emitted heat generation
+        unit: kt
+
+# Theirs
+# why do we need them?
 - Emissions|CO2:
     description: Net CO2 emissions
     unit: Mt CO2/yr

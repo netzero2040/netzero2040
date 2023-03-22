@@ -34,6 +34,7 @@
           biogas (lower methane content than fossil natural gas)
     - Gas|Coal Gas:
         description: Coal gases
+    # consider removing (does not fit -> liquids|Biofuel, Gas|Biogas
     - Biomass:
         description: Solid biomass
     - Hydro:
@@ -42,8 +43,6 @@
         description: Run-of-river hydropower
     - Hydro|Reservoir:
         description: Reservoir-storage hydropower
-    - Hydro|Pumped Storage:
-        description: Pumped storage hydro power
     - Solar:
         description: Solar energy
     - Wind:
@@ -52,3 +51,7 @@
         description: Geothermal energy
     - Waste:
         description: Combustible waste
+    - Electricity:
+        description: Electricity
+    - Solid|Biomass:
+        description: Solid Biomass

@@ -1,9 +1,0 @@
-- Electricity Storage Types:
-    - Hydro:
-        description: electric power plant using water for energy storage
-    - Hydro|Pumped:
-        description: pumped hydro storage plant
-    - Hydro|Reservoir:
-        description: hydro reservoir storage plant
-    - Battery:
-        description: battery storage

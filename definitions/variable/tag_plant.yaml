@@ -1,0 +1,25 @@
+- Plant:
+    - Power Plant:
+        description: Power plant
+    - Heat Plant:
+        description: Heat plant
+    - Combined Heat and Power:
+        description: Combined heat and power plant
+    - Run-of-river Plant:
+        description: Run-of-river hydro power plant
+    - Reservoir Storage:
+        description: Hydro reservoir storage
+    - Storage:
+        description: Energy storage plant. Includes pumped storage, batteries, etc.
+
+    # todo find meaningfull description
+    # todo check with Martin
+
+    - Solar PV Central:
+        description: centralized pv plants
+
+    - Solar PV Decentral:
+        description: Rooftop photovoltaic. (decentral)
+
+    - Turbine:
+          description: Wind Turbine

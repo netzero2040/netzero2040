@@ -1,0 +1,7 @@
+- Emission Source:
+    - CO2:
+        description: Carbon dioxide
+    - CH4:
+        description: Methane emissions
+    - N2O:
+        description: Nitrous oxide

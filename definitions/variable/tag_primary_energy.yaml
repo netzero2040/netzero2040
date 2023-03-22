@@ -21,3 +21,5 @@
         description: Geothermal energy
     - Waste:
         description: Combustible waste
+    - Hydrogen:
+        description: Hydrogen

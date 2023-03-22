@@ -5,3 +5,5 @@
         description: Methane including fossil methane (natural gas), biogenic methane, synthetic methane
     - Electricity:
         description: Electricity
+    - Heat:
+          description: Heat

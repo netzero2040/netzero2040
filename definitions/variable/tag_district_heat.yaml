@@ -1,3 +1,9 @@
 - District Heat Input:
     - Gas:
         description: Gaseous fuels
+    - Gas|Hydrogen:
+          description: Hydrogen fuels
+    - Gas|Methane|Synthetic:
+          description: synthetic bio gas fuels
+    - Solid|Biomass:
+          description: Gaseous fuels
