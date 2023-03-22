@@ -1,0 +1,27 @@
+# Carbon price
+- Price|Carbon:
+    definition: Price of carbon
+    unit: EUR_2020/t CO2
+    skip-region-aggregation: true
+- Price|Carbon|{ETS}:
+    definition: Price of carbon in sectors {ETS}
+    unit: EUR_2020/t CO2
+    skip-region-aggregation: true
+
+# Primary energy prices (producer)
+- Price|Primary Energy|{Primary Energy Carrier}:
+    description: Producer prices for {Primary Energy Carrier}
+    unit: EUR_2020/GJ
+    weight: Primary Energy|{Primary Energy Carrier}
+
+# Prices at the secondary-energy level (large consumers)
+- Price|Secondary Energy|Electricity:
+    description: Electricity price at the wholesale-market level, e.g. spot market price
+    notes: Prices should include the effect of carbon prices.
+    unit: EUR_2020/GJ
+    weight: Secondary Energy|Electricity
+- Price|Secondary Energy|Hydrogen:
+    description: Hydrogen price at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: EUR_2020/GJ
+    weight: Secondary Energy|Hydrogen

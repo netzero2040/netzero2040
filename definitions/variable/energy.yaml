@@ -2,6 +2,9 @@
     description: Primary energy consumption of {Primary Energy Carrier}
     unit: TJ
     note: should be equal to 'Domestic Production' + 'Imports' - 'Exports'
+- Secondary Energy|Electricity:
+    description: Total net generation of electricity (including transmission losses)
+    unit: TJ
 - Secondary Energy|Electricity|{Electricity Input}:
     description: Total net generation of electricity from {Electricity Input}
       (including transmission losses)
