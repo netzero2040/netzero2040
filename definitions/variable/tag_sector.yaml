@@ -8,7 +8,15 @@
     - Transport:
         description: Transportation by air, water, land
     - Transport|Road:
-        description: Transportation by Road      
+        description: Transportation by Road
+    - Transport|Road|Bus:
+          description: Transportation by Bus on Roads
+    - Transport|Road|Cars:
+        description: Transportation by Cars on Roads (PKW)
+    - Transport|Road|LDV:
+        description: Transportation by Light Duty Vehicles on Roads
+    - Transport|Road|Trucks:
+        description: Transportation by Trucks on Roads
     - Transport|Rail:
         description: Transportation by Rail
     - Transport|Other:
