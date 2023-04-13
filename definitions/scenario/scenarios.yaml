@@ -1,5 +1,15 @@
-- Green Growth|Low Import|Low Demand
-- Green Growth|High Import|High Demand
-- Green Growth|High Import|Low Demand
-- Green Growth|Low Import|High Demand
-- Test
+- Green Growth|Low Import|Low Demand:
+    description: Describes the basic  LOW import and LOW demand scenario (Scenario A)
+    project: NetZero2040
+- Green Growth|High Import|High Demand:
+    description: Describes the basic HIGH import and HIGH demand scenario (Scenario B)
+    project: NetZero2040
+- Green Growth|Low Import|High Demand:
+    description: Describes the basic LOW import and HIGH demand scenario (Scenario C)
+    project: NetZero2040
+- Green Growth|High Import|Low Demand:
+      description: Describes the basic HIGH import and LOW demand scenario (Scenario D)
+      project: NetZero2040
+- Test:
+    description: A scenario for testing and development purpose
+    project:  Netzero2040
