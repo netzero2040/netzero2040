@@ -53,6 +53,9 @@
 - Energy Sector Own Use|Gas|Methane:
     description: Own use of methane by the energy sector
     unit: TJ
+- Energy Sector Own Use|Electricity:
+    description: Own use of Electricity by the energy sector
+    unit: TJ
 - Non-Energy Use|{Final Energy Carrier}:
     description: Consumption of {Final Energy Carrier} for non-energetic uses
     unit: TJ
