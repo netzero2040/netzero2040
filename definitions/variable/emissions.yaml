@@ -1,3 +1,10 @@
+- Emissions|{Emission Source}|Electricity:
+    description:  emissions emitted electricity generation {Emission Source}
+    unit: kt
+- Emissions|{Emission Source}|Heat:
+    description: emissions emitted heat generation {Emission Source}
+    unit: kt
+
 - Emissions|CO2:
     description: Net CO2 emissions
     unit: Mt CO2/yr
