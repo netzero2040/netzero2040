@@ -1,15 +1,15 @@
-- Emissions|{Emission Source}|Electricity:
-    description:  emissions emitted electricity generation {Emission Source}
+- Emissions|{Emission Kind}|Electricity:
+    description:  emissions emitted electricity generation {Emission Kind}
     unit: kt
-- Emissions|{Emission Source}|Heat:
-    description: emissions emitted heat generation {Emission Source}
+- Emissions|{Emission Kind}|Heat:
+    description: emissions emitted heat generation {Emission Kind}
     unit: kt
 
-- Emissions|CO2:
-    description: Net {Emission Source} emissions
+- Emissions|Emission Kind:
+    description: Net {Emission Kind} emissions
     unit: Mt/yr
-- Emissions|CO2|{Sector}:
-    description: Net {Emission Source} emissions from {Sector}
+- Emissions|Emission Kind|{Sector}:
+    description: Net {Emission Kind} emissions from {Sector}
     unit: Mt/yr
 
 - Emissions|CO2|{ETS}:
