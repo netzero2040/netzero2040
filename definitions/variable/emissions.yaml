@@ -1,17 +1,17 @@
 - Emissions|{Emission Species}:
-    description: Net {Emission Kind} emissions
-    unit: [MT/yr, kt]
+    description: Net {Emission Species} emissions
+    unit: "{Emission Species}"
 - Emissions|{Emission Species}|Electricity:
     description: Emissions of {Emission Species} emitted from electricity generation
-    unit: [MT/yr, kt]
+    unit: "{Emission Species}"
 - Emissions|{Emission Species}|Heat:
     description: Emissions of {Emission Species} emitted from heat generation
-    unit:  [MT/yr, kt]
+    unit: "{Emission Species}"
 - Emissions|{Emission Species}|{Sector}:
     description: Net {Emission Species} emissions from {Sector}
-    unit: [MT/yr, kt]
+    unit: "{Emission Species}"
 
 - Emissions|CO2|{ETS}:
     description: Net CO2 emissions from all sources in sectors {ETS}
-    unit: [MT/yr, kt]
+    unit: Mt CO2/yr
 
