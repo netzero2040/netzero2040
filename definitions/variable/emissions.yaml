@@ -5,7 +5,7 @@
     description: emissions emitted heat generation {Emission Kind}
     unit: kt
 
-- Emissions|Emission Kind:
+- Emissions|{Emission Kind}:
     description: Net {Emission Kind} emissions
     unit: Mt/yr
 - Emissions|Emission Kind|{Sector}:
