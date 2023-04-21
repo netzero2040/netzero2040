@@ -5,3 +5,6 @@
         description: Methane including fossil methane (natural gas), biogenic methane, synthetic methane
     - Electricity:
         description: Electricity
+    - Heat:
+        description: Thermal energy in form of heat (e.g. used in district heating systems)
+
