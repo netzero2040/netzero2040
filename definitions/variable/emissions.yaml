@@ -2,7 +2,7 @@
     description: Emissions of {Emission Kind} emitted from electricity generation
     unit: {Emission Kind}
 - Emissions|{Emission Kind}|Heat:
-    description: emissions emitted heat generation {Emission Kind}
+    description: Emissions of {Emission Kind} emitted from heat generation 
     unit: kt
 
 - Emissions|{Emission Kind}:
