@@ -1,6 +1,6 @@
 - Emissions|{Emission Kind}|Electricity:
     description: Emissions of {Emission Kind} emitted from electricity generation
-    unit: kt
+    unit: {Emission Kind}
 - Emissions|{Emission Kind}|Heat:
     description: emissions emitted heat generation {Emission Kind}
     unit: kt
