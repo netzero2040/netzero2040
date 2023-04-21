@@ -8,7 +8,7 @@
 - Emissions|{Emission Kind}:
     description: Net {Emission Kind} emissions
     unit: Mt/yr
-- Emissions|Emission Kind|{Sector}:
+- Emissions|{Emission Kind}|{Sector}:
     description: Net {Emission Kind} emissions from {Sector}
     unit: Mt/yr
 
