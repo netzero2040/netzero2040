@@ -1,5 +1,5 @@
 - Emissions|{Emission Kind}|Electricity:
-    description:  emissions emitted electricity generation {Emission Kind}
+    description: Emissions of {Emission Kind} emitted from electricity generation
     unit: kt
 - Emissions|{Emission Kind}|Heat:
     description: emissions emitted heat generation {Emission Kind}
