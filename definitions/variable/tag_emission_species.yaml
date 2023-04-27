@@ -1,0 +1,10 @@
+- Emission Species:
+    - CO2:
+        description: Carbon dioxide
+        unit: Mt CO2/yr
+    - CH4:
+        description: Methane
+        unit: Mt CH4/yr
+    - N2O:
+        description: Nitrous oxide
+        unit: Mt N2O/yr
