@@ -11,8 +11,8 @@
         description: Liquid biofuels, e.g., biodiesel, bio-ethanol
     - Gas:
         description: Gas including natural gas, biogas and hydrogen
-    - Gas|Natural Gas:
-        description: Natural gas
+    - Gas|Methane:
+        description: Methane (Natural Gas)
     - Gas|Coal Gas:
         description: Coal gases
     - Gas|Hydrogen:
