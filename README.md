@@ -27,7 +27,7 @@ It supports validation of scenario data based on a project-specific configuratio
 The folder [styles](styles) contains a **pyam**-compatible configuration file
 with a color scheme to be used in this project.
 
-<img src="https://github.com/IAMconsortium/pyam/blob/main/doc/logos/pyam-logo.png" width="133" height="100" align="right" alt="pyam logo" />
+<img src="https://github.com/IAMconsortium/pyam/blob/main/docs/logos/pyam-logo.png" width="133" height="100" align="right" alt="pyam logo" />
 
 The Python package **pyam** is an open-source community toolbox
 for analysis & visualization of scenario data.
