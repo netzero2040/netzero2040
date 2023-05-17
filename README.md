@@ -1,7 +1,7 @@
 # Nomenclature & style guides for the *netzero2040* project
 
 
-© 2021 NetZero2040 consortium; licensed under the [MIT License](LICENSE).
+© 2021-2023 NetZero2040 consortium; licensed under the [MIT License](LICENSE).
 
 [![license](https://img.shields.io/github/license/NetZero2040/NetZero2040)](https://github.com/NetZero2040/NetZero2040/blob/main/LICENSE)
 
