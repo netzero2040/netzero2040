@@ -1,6 +1,10 @@
 - Sector:
     - Households:
         description: Households
+    - Households|Appliances:
+        description: Households for appliances
+    - Households|Heat:
+        description: Households for heat generation
     - Services:
         description: Service sector
     - Industry:
@@ -23,3 +27,6 @@
         description: Transportation by other means (Air, Water, Pipelines)
     - Agriculture:
         description: Agriculture including forestry
+    - Statistical Differences:
+        description: Dummy sector to account for differences between
+          aggregate vs. sectoral/bottom-up/micro-census statistical sources
