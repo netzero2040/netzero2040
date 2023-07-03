@@ -1,0 +1,27 @@
+- Alternative Fuel Output:
+    - Liquids:
+        description: Liquid fuels
+    - Liquids|Synfuel:
+        description: Liquid synthetic fuels, e.g., dimethyl ether (DME), methanol
+    - Liquids|Biofuels:
+        description: Liquid biofuels, e.g., biodiesel, bio-ethanol
+    - Gas:
+        description: Gaseous fuels
+    - Gas|Hydrogen:
+        description: Hydrogen
+    - Gas|Hydrogen|Renewable Sources:
+        description: Hydrogen from renewable sources
+    - Gas|Hydrogen|Other Sources:
+        description: Hydrogen from non-renewable sources
+    - Gas|Methane:
+        description: Methane
+    - Gas|Methane|Fossil:
+        description: Fossil methane (natural gas)
+    - Gas|Methane|Biogenic:
+        description: Methane from biogenic sources
+    - Gas|Methane|Synthetic:
+        description: Synthesized methane
+    - Gas|Methane|Synthetic|Renewable Sources:
+        description: Synthesized methane from renewable sources
+    - Gas|Methane|Synthetic|Other Sources:
+        description: Synthesized methane from non-renewable sources
