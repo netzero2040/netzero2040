@@ -15,8 +15,6 @@
         description: Hydrogen from non-renewable sources
     - Gas|Methane:
         description: Methane
-    - Gas|Methane|Fossil:
-        description: Fossil methane (natural gas)
     - Gas|Methane|Biogenic:
         description: Methane from biogenic sources
     - Gas|Methane|Synthetic:
