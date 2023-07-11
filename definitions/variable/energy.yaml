@@ -18,8 +18,11 @@
     description: Consumption of {Electricity Input} for electricity generation
       (including transmission losses)
     unit: TJ
-- Conversion Input|{Alternative Fuel Output}|{Alternative Fuel Input}:
-    description: Consumption of {Synfuel Input} for generation of {Synfuel Output}
+- Conversion Input|{Gaseous Fuel Output}|{Gaseous Fuel Input}:
+    description: Consumption of {Gaseous Fuel Input} for generation of {Gaseous Fuel Output}
+    unit: TJ
+- Conversion Input|{Liquid Fuel Output}|{Liquid Fuel Input}:
+    description: Consumption of {Liquid Fuel Input} for generation of {Liquid Fuel Output}
     unit: TJ
 - Secondary Energy|Hydrogen:
     description: Total net generation of hydrogen

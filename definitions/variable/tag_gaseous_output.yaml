@@ -1,10 +1,4 @@
-- Alternative Fuel Output:
-    - Liquids:
-        description: Liquid fuels
-    - Liquids|Synfuel:
-        description: Liquid synthetic fuels, e.g., dimethyl ether (DME), methanol
-    - Liquids|Biofuels:
-        description: Liquid biofuels, e.g., biodiesel, bio-ethanol
+- Gaseous Fuel Output:
     - Gas:
         description: Gaseous fuels
     - Gas|Hydrogen:
