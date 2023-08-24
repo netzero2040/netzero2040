@@ -47,6 +47,19 @@
     unit: TJ
     note: This variable is the lower bound of this fuel in the energy mix of a scenario.
       It is used in the study "Green Gas (June 2021)" by the Austrian Energy Agency.
+- Final Energy|Non-Energy Use:
+    description: Final energy consumption in non-combustion processes
+    unit: EJ/yr
+- Final Energy|Non-Energy Use|{Final Energy Carrier}:
+    description: Final energy consumption of {Final Energy Carrier} in non-combustion processes
+    unit: EJ/yr
+- Final Energy|Non-Energy Use|{Non-Energy Sector}:
+    description: Final energy consumption by the {Non-Energy Sector} for non-combustion processes
+    unit: EJ/yr
+- Final Energy|Non-Energy Use|{Non-Energy Sector}|{Final Energy Carrier}:
+    description: Final energy consumption of {Final Energy Carrier} by the {Non-Energy Sector}
+      for non-combustion processes
+    unit: EJ/yr
 - Transmission Losses|{Network-Based Energy Carriers}:
     description: Transmission losses of {Network-Based Energy Carriers}
     unit: TJ
