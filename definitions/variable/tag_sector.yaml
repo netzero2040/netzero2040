@@ -9,6 +9,16 @@
         description: Service sector
     - Industry:
         description: Industrial sector, excluding non-energy use (e.g.feedstocks)
+    - Industry|Iron and Steel:
+        description: Iron and steel sector excluding feedstocks
+    - Industry|Non-Metallic Minerals:
+        description: non-metallic minerals sector
+    - Industry|Chemicals:
+        description: chemicals sector excluding feedstocks
+    - Industry|Pulp and Paper:
+        description: pulp and paper
+    - Industry|Other Sector:
+        description: other industrial sectors
     - Transport:
         description: Transportation by air, water, land
     - Transport|Road:
