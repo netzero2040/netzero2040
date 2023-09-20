@@ -1,0 +1,26 @@
+- Gaseous Fuel Input:
+    - Coal:
+        description: Anthracite, coking coal, lignite, peat
+    - Gas:
+        description: Gaseous fuels
+    - Gas|Hydrogen:
+        description: Hydrogen
+    - Gas|Hydrogen|Renewable Sources:
+        description: Hydrogen from renewable sources
+    - Gas|Hydrogen|Other Sources:
+        description: Hydrogen from non-renewable sources
+    - Gas|Methane:
+        description: Methane
+    - Gas|Methane|Fossil:
+        description: Fossil methane (natural gas)
+    - Gas|Methane|Biogenic:
+        description: Methane from biogenic sources
+    - Gas|Biogas:
+        description: Gas from biogenic sources including landfill gas, sewer gas, and 
+          biogas (lower methane content than fossil natural gas)
+    - Gas|Coal Gas:
+        description: Coal gases
+    - Biomass:
+        description: Solid biomass
+    - Electricity:
+        description: Electrical energy

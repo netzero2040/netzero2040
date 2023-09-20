@@ -1,0 +1,19 @@
+- Gaseous Fuel Output:
+    - Gas:
+        description: Gaseous fuels
+    - Gas|Hydrogen:
+        description: Hydrogen
+    - Gas|Hydrogen|Renewable Sources:
+        description: Hydrogen from renewable sources
+    - Gas|Hydrogen|Other Sources:
+        description: Hydrogen from non-renewable sources
+    - Gas|Methane:
+        description: Methane
+    - Gas|Methane|Biogenic:
+        description: Methane from biogenic sources
+    - Gas|Methane|Synthetic:
+        description: Synthesized methane
+    - Gas|Methane|Synthetic|Renewable Sources:
+        description: Synthesized methane from renewable sources
+    - Gas|Methane|Synthetic|Other Sources:
+        description: Synthesized methane from non-renewable sources
