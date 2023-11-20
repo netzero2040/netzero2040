@@ -1,0 +1,9 @@
+ - Car Engine Type:
+     - Combustion Engine:
+         description: combustion engine
+     - Electric:
+         description: battery-electric
+     - Fuel Cell:
+         description: fuel-cell
+     - Hybrid:
+         description: hybrid
