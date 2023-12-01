@@ -92,3 +92,6 @@
 - Stock Changes|{Primary Energy Carrier}:
     description: Net stock changes of {Primary Energy Carrier}
     unit: TJ
+- Gross Domestic Consumption|{Final Energy Carrier}:
+    description: gross domestic consumption of {Final Energy Carrier}
+    unit: TJ

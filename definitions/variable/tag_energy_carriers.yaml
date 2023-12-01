@@ -1,0 +1,53 @@
+- Energy Carrier:
+    - Ambient Heat:
+        description: Heat from the surrounding used in heat pumps
+    - Electricity:
+        decription: electricity
+    - Gas|Biogas:
+        description: Gas from biogenic sources including landfill gas, sewer gas, and 
+          biogas (lower methane content than fossil natural gas)
+    - Gas|Coal Gas:
+        description: Coal gases
+    - Gas|Hydrogen:
+        description: Hydrogen
+    - Gas|Hydrogen|Renewable Sources:
+        description: Hydrogen from renewable sources
+    - Gas|Hydrogen|Other Sources:
+        description: Hydrogen from non-renewable sources
+    - Gas|Methane:
+        description: Methane
+    - Gas|Methane|Fossil:
+        description: Fossil methane (natural gas)
+    - Gas|Methane|Biogenic:
+        description: Methane from biogenic sources
+    - Gas|Methane|Synthetic:
+        description: Synthesized methane
+    - Gas|Methane|Synthetic|Renewable Sources:
+        description: Synthesized methane from renewable sources
+    - Gas|Methane|Synthetic|Other Sources:
+        description: Synthesized methane from non-renewable sources
+    - Liquids:
+        description: Liquid fuels
+    - Liquids|Fossil:
+        description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil,
+          fuel oil
+    - Liquids|Biofuels:
+        description: Liquid biomass and biofuels including spent lye, bioethanol,
+          biodiesel, and other biogenic liquids
+    - Liquids|Synfuel:
+        description: Synthetic fuels, e.g., dimethyl ether (DME), methanol
+    - Solids:
+        description: Solid fuels
+    - Solids|Coal:
+        description: Anthracite, coking coal, lignite, peat
+    - Solids|Biomass:
+        description: Solid biomass including wood pellets, wood briquettes, wood waste,
+          char coal, and other biogenic solids
+    - Solar:
+        description: Direct use of solar energy (heating)
+    - Waste:
+        description: Combustible waste
+    - Hydro:
+        description: Hydropower
+    - Wind:
+        description: Wind
