@@ -1,0 +1,12 @@
+- Stock|Vehicles|Passenger|Combustion:
+    description: Stock of passenger cars with internal combustion engine
+    unit: thousand
+- Stock|Vehicles|Passenger|Electric:
+    description: Stock of passenger cars with electric engine
+    unit: thousand
+- Stock|Vehicles|Passenger|Fuel Cell:
+    description: Stock of passenger cars with fuel cell electric engine
+    unit: thousand
+- Stock|Vehicles|Passenger|Hybrid:
+    description: Stock of hybrid-electric passenger cars
+    unit: thousand
