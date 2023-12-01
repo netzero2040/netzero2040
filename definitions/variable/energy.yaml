@@ -14,10 +14,6 @@
       (including transmission losses)
     unit: TJ
     note: this is equivalent to "Conversion Output"
-- Conversion Input|Electricity|{Electricity Input}:
-    description: Consumption of {Electricity Input} for electricity generation
-      (including transmission losses)
-    unit: TJ
 - Secondary Energy|Hydrogen:
     description: Total net generation of hydrogen
     unit: TJ
@@ -28,6 +24,16 @@
     note: this is equivalent to "Conversion Output"
 - Conversion Input|District Heat|{District Heat Input}:
     description: Consumption of {District Heat Input} for generation of district heat
+    unit: TJ
+- Conversion Input|Electricity|{Electricity Input}:
+    description: Consumption of {Electricity Input} for electricity generation
+      (including transmission losses)
+    unit: TJ
+- Conversion Input|{Final Energy Carrier}|Electricity:
+    description: Consumption of electricity for the generation of {Final Energy Carrier}
+    unit: TJ
+- Conversion Input|{Final Energy Carrier}|Gas|Hydrogen:
+    description: Consumption of hydrogen for the generation of {Final Energy Carrier}
     unit: TJ
 - Final Energy|{Final Energy Carrier}:
     description: Final consumption of {Final Energy Carrier}
