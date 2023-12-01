@@ -68,6 +68,9 @@
 - Imports|{Primary Energy Carrier}|{Imports Source}:
     description: Gross imports of {Primary Energy Carrier} from {Imports Source}
     unit: TJ
+- Imports|Electricity:
+    description: Gross electricity imports
+    unit: TJ
 - Imports|Other (Diversification):
     description: Gross imports of other energy carriers than natural gas
       as part of the diversification away from Russian gas imports
@@ -77,8 +80,14 @@
 - Exports|{Primary Energy Carrier}:
     description: Gross exports of {Primary Energy Carrier}
     unit: TJ
+- Export|Electricity:
+    description: Gross electricity export
+    unit: TJ
 - Net Imports|{Primary Energy Carrier}:
     description: Net imports of {Primary Energy Carrier}
+    unit: TJ
+- Net Imports|Electricity:
+    description: Net electricity imports
     unit: TJ
 - Stock Changes|{Primary Energy Carrier}:
     description: Net stock changes of {Primary Energy Carrier}
