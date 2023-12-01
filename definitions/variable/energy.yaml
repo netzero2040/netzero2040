@@ -32,9 +32,6 @@
 - Conversion Input|{Final Energy Carrier}|Electricity:
     description: Consumption of electricity for the generation of {Final Energy Carrier}
     unit: TJ
-- Conversion Input|{Final Energy Carrier}|Gas|Hydrogen:
-    description: Consumption of hydrogen for the generation of {Final Energy Carrier}
-    unit: TJ
 - Final Energy|{Final Energy Carrier}:
     description: Final consumption of {Final Energy Carrier}
       (excluding transmission/distribution losses)
