@@ -29,10 +29,6 @@
     description: Total net generation of electricity methane plants (including 
       transmission losses)
     unit: TJ
-- Secondary Energy|Electricity|Geothermal:
-    description: Total net generation of electricity in geothermal plants (including 
-      transmission losses)
-    unit: TJ
 - Secondary Energy|Electricity|Thermal Plant|Liquids|Fossil:
     description: Total net generation of electricity in oil plants (including 
       transmission losses)
