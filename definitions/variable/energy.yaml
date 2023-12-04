@@ -34,9 +34,6 @@
 - Conversion Input|Electricity|Gas|Methane|Synthetic:
     description: Consumption of synthetic methane to generate electricity
     unit: TJ
-- Conversion Input|Gas|Hydrogen|Electricity:
-    description: Consumption of electricity to generate hydrogen
-    unit: TJ
 - Conversion Input|Gas|Methane|Gas|Hydrogen:
     description: Consumption of hydrogen to generate synthetic methane
     unit: TJ
