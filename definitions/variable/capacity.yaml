@@ -7,6 +7,9 @@
 - Capacity|Heat Plant|Heat|{Heat Input}:
     description: Installed capacity to generate heat from {Heat Input}
     unit: MW
+- Capacity|Heat Plant|Heat Pump|Heat|{Heat Input}:
+    description: Installed capacity of {Heating Technology} to generate heat from {Heat Input}
+    unit: MW
 - Capacity|Electrolyser|Hydrogen|Electricity:
     description: Installed capacity to generate hydrogen from electricity
     unit: MW
