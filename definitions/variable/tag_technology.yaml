@@ -1,0 +1,25 @@
+- Technology:
+    - Fuel Cell:
+        description: Fuel cell
+    - Solar|PV:
+        description: Solar Photovoltaics
+    - Thermal Plant|Solids|Biomass:
+        description: Plant burning solid biomass
+    - Thermal Plant|Solids|Coal:
+        description: Thermal coal plant
+    - Thermal Plant|Solids|Waste:
+        description: Waste incineration plant
+    - Thermal Plant|Gas|Biogas:
+        description: Biogas plant
+    - Thermal Plant|Gas|Coal gas:
+        description: Coal gas plant
+    - Thermal Plant|Gas|Methane:
+        description: Fossil, synthetic or biogenic methane plant
+    - Thermal Plant|Geothermal:
+        description: Deep geothermal plant
+    - Thermal Plant|Liquids|Fossil:
+        description: Oil plant
+    - Thermal Plant|Gas|Biogas:
+        description: Biogas plant
+    - Battery:
+        description: Battery
