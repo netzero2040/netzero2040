@@ -25,12 +25,32 @@
 - Conversion Input|District Heat|{District Heat Input}:
     description: Consumption of {District Heat Input} for generation of district heat
     unit: TJ
-- Conversion Input|Electricity|{Electricity Input}:
-    description: Consumption of {Electricity Input} for electricity generation
-      (including transmission losses)
+- Conversion Input|Electricity|Gas|Hydrogen:
+    description: Consumption of hydrogen to generate electricity
     unit: TJ
-- Conversion Input|{Final Energy Carrier}|Electricity:
-    description: Consumption of electricity for the generation of {Final Energy Carrier}
+- Conversion Input|Electricity|Gas|Methane|Fossil:
+    description: Consumption of fossil methane to generate electricity
+    unit: TJ
+- Conversion Input|Electricity|Gas|Methane|Synthetic:
+    description: Consumption of synthetic methane to generate electricity
+    unit: TJ
+- Conversion Input|Gas|Hydrogen|Electricity:
+    description: Consumption of electricity to generate hydrogen
+    unit: TJ
+- Conversion Input|Gas|Methane|Gas|Hydrogen:
+    description: Consumption of hydrogen to generate synthetic methane
+    unit: TJ
+- Conversion Input|Gas|Hydrogen|Electricity:
+    description: Consumption of electricity to generate hydrogen
+    unit: TJ
+- Conversion Input|Liquids|Synfuel|Electricity:
+    description: Consumption of electricity to generate synthetic fuels
+    unit: TJ
+- Conversion Input|Liquids|Synfuel|Gas|Hydrogen:
+    description: Consumption of hydrogen to generate synthetic fuels
+    unit: TJ
+- Conversion Input|Electricity|Electricity:
+    description: Consumption of electricity to generate electricity (storage intake)
     unit: TJ
 - Final Energy|{Final Energy Carrier}:
     description: Final consumption of {Final Energy Carrier}
