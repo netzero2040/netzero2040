@@ -1,9 +1,0 @@
-- Technology:
-    - Fuel Cell:
-        description: Fuel cell
-    - Solar|PV:
-        description: Solar Photovoltaics
-    - Thermal Plant:
-        description: Thermal plant
-    - Battery:
-        description: Battery

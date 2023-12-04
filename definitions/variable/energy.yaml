@@ -9,9 +9,45 @@
     description: Total net generation of electricity from {Electricity Input}
       (including transmission losses)
     unit: TJ
-- Secondary Energy|Electricity|{Technology}|{Electricity Input}:
-    description: Total net generation of electricity in {Technology} from
-      {Energy Input} (including transmission losses)
+- Secondary Energy|Electricity|Fuel Cell|Hydrogen:
+    description: Total net generation of electricity in fuel cells from
+      hydrogen (including transmission losses)
+    unit: TJ
+- Secondary Energy|Electricity|Solar|PV:
+    description: Total net generation of electricity from
+      solar photovoltaics (including transmission losses)
+    unit: TJ
+- Secondary Energy|Electricity|Thermal Plant|Gas|Biogas:
+    description: Total net generation of electricity in biogas plants 
+      (including transmission losses)
+    unit: TJ
+- Secondary Energy|Electricity|Thermal Plant|Gas|Coal gas:
+    description: Total net generation of electricity in coal gas plants (including 
+      transmission losses)
+    unit: TJ
+- Secondary Energy|Electricity|Thermal Plant|Methane:
+    description: Total net generation of electricity methane plants (including 
+      transmission losses)
+    unit: TJ
+- Secondary Energy|Electricity|Geothermal:
+    description: Total net generation of electricity in geothermal plants (including 
+      transmission losses)
+    unit: TJ
+- Secondary Energy|Electricity|Thermal Plant|Liquids|Fossil:
+    description: Total net generation of electricity in oil plants (including 
+      transmission losses)
+    unit: TJ
+- Secondary Energy|Electricity|Thermal Plant|Solids|Biomass:
+    description: Total net generation of electricity in solid biomass plants (including 
+      transmission losses)
+    unit: TJ
+- Secondary Energy|Electricity|Thermal Plant|Solids|Coal:
+    description: Total net generation of electricity in coal plants (including 
+      transmission losses)
+    unit: TJ
+- Secondary Energy|Electricity|Thermal Plant|Waste:
+    description: Total net generation of electricity in waste incineration plants 
+      (including transmission losses)
     unit: TJ
 - Secondary Energy|Heat|{Heat Input}:
     description: Total net generation of heat from {Heat Input}
