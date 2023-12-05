@@ -46,9 +46,6 @@
 - Conversion Input|Liquids|Synfuel|Gas|Hydrogen:
     description: Consumption of hydrogen to generate synthetic fuels
     unit: TJ
-- Conversion Input|Electricity|Electricity:
-    description: Consumption of electricity to generate electricity (storage intake)
-    unit: TJ
 - Final Energy|{Final Energy Carrier}:
     description: Final consumption of {Final Energy Carrier}
       (excluding transmission/distribution losses)
