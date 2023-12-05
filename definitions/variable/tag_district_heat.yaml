@@ -1,4 +1,6 @@
 - District Heat Input:
+    - Electricity:
+        description: Electricity
     - Gas:
         description: Gaseous fuels
     - Gas|Hydrogen:
