@@ -1,16 +1,29 @@
 - Primary Energy Carrier:
-    - Coal:
+    - Solids|Coal:
         description: Anthracite, coking coal, lignite, peat
-    - Crude Oil:
-        description: Crude oil and oil products, e.g., gasoline, diesel, gas oil
-    - Natural Gas:
-        description: Natural gas
-    - Biogas:
+    - Liquids|Crude Oil:
+        description: Crude oil
+    - Gas|Methane|Fossil:
+        description: Fossil methane (natural gas)
+    - Gas|Methane|Biogenic:
+        description: Methane from biogenic sources
+    - Gas|Methane|Synthetic|Renewable Sources:
+        description: Synthesized methane from renewable sources
+    - Gas|Biogas:
         description: Gas from biogenic sources
-    - Biomass:
+    - Gas|Coal Gas:
+        description: Coal gases
+    - Gas|Hydrogen|Renewable Sources:
+        description: Hydrogen from renewable sources
+    - Solids|Biomass:
         description: Solid biomass
-    - Biofuel:
+    - Liquids|Biofuel:
         description: Liquid biomass
+    - Liquids|Fossil:
+        description: Oil products refined from crude oil e.g. gasoline, diesel, gas oil, 
+          fuel oil
+    - Liquids|Synfuel:
+        description: Synthetic fuels, e.g., dimethyl ether (DME), methanol
     - Hydro:
         description: Hydropower
     - Solar:
