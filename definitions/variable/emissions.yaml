@@ -10,8 +10,10 @@
 - Emissions|{Emission Species}|{Sector}:
     description: Net {Emission Species} emissions from {Sector}
     unit: "{Emission Species}"
-
 - Emissions|CO2|{ETS}:
     description: Net CO2 emissions from all sources in sectors {ETS}
+    unit: Mt CO2/yr
+- Emissions|Sequestrated:
+    description: GHG emissions sequestrated
     unit: Mt CO2/yr
 
