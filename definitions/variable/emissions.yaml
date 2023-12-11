@@ -1,6 +1,25 @@
 - Emissions|{Emission Species}:
     description: Net {Emission Species} emissions
     unit: "{Emission Species}"
+
+- Emissions|{Emission Species} excl. LULUCF:
+    description: Net {Emission Species} emissions exluding land-use and land-use change
+    unit: "{Emission Species}"
+
+# emissions categories representing the full system according to (simplified) IPCC categories
+- Emissions|{Emission Species}|{Emission Category}:
+    description: Net {Emission Species} emissions from {Emission Category}
+    unit: "{Emission Species}"
+- Emissions|Kyoto Gases|{ETS}:
+    description: Net Kyoto GHG emissions including CO2, CH4, N2O and F-gases
+      emissions from sectors {ETS}
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|{Emission Category}|{ETS}:
+    description: Net {Kyoto GHG emissions including CO2, CH4, N2O and F-gases
+      from {Emission Category} in sectors {ETS}
+    unit: Mt CO2e/yr
+
+# simplified emissions categories for specific sectors
 - Emissions|{Emission Species}|Electricity:
     description: Emissions of {Emission Species} emitted from electricity generation
     unit: "{Emission Species}"
@@ -14,4 +33,3 @@
 - Emissions|CO2|{ETS}:
     description: Net CO2 emissions from all sources in sectors {ETS}
     unit: Mt CO2/yr
-
