@@ -122,3 +122,11 @@
 - Stock Changes|{Primary Energy Carrier}:
     description: Net stock changes of {Primary Energy Carrier}
     unit: TJ
+- Gross Domestic Consumption|{Final Energy Carrier}:
+    description: Gross domestic consumption of {Final Energy Carrier},
+      including transmission losses and consumption at the secondary level
+    unit: TJ
+- Gross Domestic Consumption|Ambient Heat:
+    description: Gross domestic consumption of ambient heat (using heat pumps),
+      including transmission losses and consumption at the secondary level
+    unit: TJ
