@@ -49,3 +49,5 @@
         description: Heat delivered from district heating grids
     - Waste:
         description: Combustible waste
+    - Ambient Heat:
+        description: Ambient heat (using heat pumps)

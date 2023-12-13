@@ -25,6 +25,9 @@
 - Conversion Input|District Heat|{District Heat Input}:
     description: Consumption of {District Heat Input} for generation of district heat
     unit: TJ
+- Conversion Input|Electricity|Biomass:
+    description: Consumption of solid biomass to generate electricity
+    unit: TJ
 - Conversion Input|Electricity|Gas|Hydrogen:
     description: Consumption of hydrogen to generate electricity
     unit: TJ
@@ -95,9 +98,14 @@
 - Imports|{Primary Energy Carrier}:
     description: Gross imports of {Primary Energy Carrier}
     unit: TJ
+    note: This is an alternative categorization to the "Imported Energy Carrier" tag list
 - Imports|{Primary Energy Carrier}|{Imports Source}:
     description: Gross imports of {Primary Energy Carrier} from {Imports Source}
     unit: TJ
+- Imports|{Imported Energy Carrier}:
+    description: Gross imports of {Imported Energy Carrier}
+    unit: TJ
+    note: This is an alternative categorization to the "Primary Energy Carrier" tag list
 - Imports|Electricity:
     description: Gross electricity imports
     unit: TJ
@@ -126,7 +134,9 @@
     description: Gross domestic consumption of {Final Energy Carrier},
       including transmission losses and consumption at the secondary level
     unit: TJ
-- Gross Domestic Consumption|Ambient Heat:
-    description: Gross domestic consumption of ambient heat (using heat pumps),
-      including transmission losses and consumption at the secondary level
+- Gross Domestic Consumption|Hydro:
+    description: Gross domestic consumption of hydropower
+    unit: TJ
+- Gross Domestic Consumption|Wind:
+    description: Gross domestic consumption of wind power
     unit: TJ

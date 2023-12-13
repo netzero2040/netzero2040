@@ -15,3 +15,6 @@
     description: Net CO2 emissions from all sources in sectors {ETS}
     unit: Mt CO2/yr
 
+- Carbon Sequestration:
+    definition: Total fossil and atmospheric carbon dioxide sequestered
+    unit: Mt CO2/yr
