@@ -1,0 +1,7 @@
+ - Electricity System Cost:
+     description: Total system cost per year
+     unit: billion EUR/yr
+ - Upper Limit|Wind:
+     description: Exogenous upper bound on total installed capacity of wind turbines
+     unit: MW
+     note: This parameter is defined as an upper bound for a sensitivity analysis.

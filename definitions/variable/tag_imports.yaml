@@ -13,7 +13,7 @@
         description: Methane
     - Methane|Fossil:
         description: Fossil methane (natural gas)
-    - Methane|Biogenic:
+    - Bio-Methane:
         description: Methane from biogenic sources
-    - Methane|Synthetic:
+    - Synthetic Methane:
         description: Synthesized methane

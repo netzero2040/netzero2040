@@ -109,6 +109,9 @@
 - Imports|Electricity:
     description: Gross electricity imports
     unit: TJ
+- Exports|Electricity:
+    description: Gross electricity exports
+    unit: TJ
 - Imports|Other (Diversification):
     description: Gross imports of other energy carriers than natural gas
       as part of the diversification away from Russian gas imports
