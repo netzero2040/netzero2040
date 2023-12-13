@@ -1,18 +1,12 @@
 - Imported Energy Carrier:
-    - Liquids:
-        description: Liquid fuels
-    - Liquids|Fossil:
+    - Crude Oil & Products:
         description: Oil products refined from crude oil e.g. diesel, gas oil, fuel oil
-    - Liquids|Synfuel:
+    - Synthetic Fuels:
         description: Liquid synthetic fuels, e.g., dimethyl ether (DME), methanol
-    - Liquids|Biofuels:
+    - Biofuels:
         description: Liquid biofuels, e.g., biodiesel, bio-ethanol
     - Hydrogen:
         description: Hydrogen from renewable sources
-    - Methane:
-        description: Methane
-    - Methane|Fossil:
-        description: Fossil methane (natural gas)
     - Bio-Methane:
         description: Methane from biogenic sources
     - Synthetic Methane:
