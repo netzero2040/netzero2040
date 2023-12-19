@@ -1,6 +1,6 @@
 - Capacity|Power Plant|Electricity|{Electricity Input}:
     description: Installed capacity to generate electricity from {Electricity Input}
-    unit: [MW, MWp]
+    unit: MW
 - Capacity|Combined Heat and Power Plant|Electricity|{Electricity Input}:
     description: Installed capacity to co-generate electricity from {Electricity Input}
     unit: MW
