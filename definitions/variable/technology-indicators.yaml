@@ -1,0 +1,12 @@
+- Full Load Hours|Electricity|Wind:
+    description: Assumption of full-load hours for wind turbines
+    unit: hours
+- Full Load Hours|Electricity|Solar:
+    description: Assumption of full-load hours for wind turbines
+    unit: hours
+- Full Load Hours|Electricity|Biomass:
+    description: Assumption of full-load hours for wind turbines
+    unit: hours
+- Full Load Hours|Electricity|Hydro [> 1MW]:
+    description: Assumption of full-load hours for wind turbines
+    unit: hours
