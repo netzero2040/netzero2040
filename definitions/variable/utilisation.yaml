@@ -5,7 +5,7 @@
     description: utilisation / full load hours of power plants producing electricity from {Electricity Input}
     unit: h/a
 - Utilisation|Heat Plant|Heat|{Heat Input}:
-    description: utilisation / full load hours of heat plants producing heat from {Electricity Input}
+    description: utilisation / full load hours of heat plants producing heat from {Heat Input}
     unit: h/a
 - Utilisation|Storage|Electricity|Discharging|{Electricity Storage Types}:
     description: utilisation / full load hours of storage plant producing electricity 
