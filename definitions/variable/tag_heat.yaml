@@ -1,4 +1,6 @@
 - Heat Input:
+    - Ambient Heat:
+        description: Ambient heat
     - Electricity:
         description: Electricity
     - Liquids:
